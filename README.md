@@ -14,9 +14,10 @@ Criteria to reach:
   * Frequent comments
   * Professional quality
   * Frequent commits (Github control)
-  * Clean code: Clear and organised.
-  * Good format.
-  * Useful comments that give info for tutor or tester.
+  * Clean code:
+    * Clear and organised.
+    * Good format.
+    * Useful comments that give info for tutor or tester.
 * Common mistakes:
   * Limited testing
   * Placeholder text
