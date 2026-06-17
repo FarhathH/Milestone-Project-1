@@ -1,12 +1,11 @@
 # Milestone Project 1
-My first project/
-Milestones projects:
-MP1 deadline Thursday, September 10, 2026 : (3 page website)
-UX
-Accessibility
-Responsive Design
-Documentation
-Testing
+
+MP1 deadline Thursday, September 10, 2026 : (3 page website)<br>
+* UX
+* Accessibility
+* Responsive Design
+* Documentation
+* Testing
 Grades:
 Clear purpose
 User stories:
