@@ -1,5 +1,5 @@
 # Milestone Project 1
-My first project
+My first project/
 Milestones projects:
 MP1 deadline Thursday, September 10, 2026 : (3 page website)
 UX
