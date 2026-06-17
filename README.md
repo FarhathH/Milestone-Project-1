@@ -1,6 +1,8 @@
-# Milestone Project 1
+# Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
-MP1 deadline Thursday, September 10, 2026 : (3 page website)<br>
+This contains the documentation of the work and development of my Milestone Project 1. I had the clear goal in mind to create a webpage with three sections to navigate.
+
+Criteria to reach:
 * UX
 * Accessibility
 * Responsive Design
