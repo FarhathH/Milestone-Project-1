@@ -4,7 +4,7 @@
 This contains the documentation of the work and development of my Milestone Project 1. My Tutor had given us the clear task of creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us. I managed to brainstorm some ideas in a sketchbook. I had thought of some ideas. I had started off with general ideas related with my interests and going off of what the user would from each concept, how the layout would appear and the content that we would expect to find.
 
 
-<img width="4032" height="3024" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844" />
+<img width="3024" height="3024" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844" />
 
 Criteria to reach:
 * UX
