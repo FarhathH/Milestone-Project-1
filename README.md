@@ -1,6 +1,6 @@
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
-This contains the documentation of the work and development of my Milestone Project 1. My Tutor had given us the clear task fo creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us.
+This contains the documentation of the work and development of my Milestone Project 1. My Tutor had given us the clear task fo creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us. I managed to brainstorm some ideas in a sketchbook. I had thought of some ideas.
 
 Criteria to reach:
 * UX
