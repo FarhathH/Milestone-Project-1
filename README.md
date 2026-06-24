@@ -10,6 +10,7 @@ I managed to brainstorm some ideas in a sketchbook. I had started off with gener
 
 <img width="403.2" height="302.4" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844" align-image = "center"/>
 
+## User Stories
 Criteria to reach:
 * UX
 * Accessibility
