@@ -1,7 +1,7 @@
 
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
-## Context and Brainstorming
+## Context and Brainstorming the Project Idea
 
 This contains the documentation of the work and development of my Milestone Project 1. My Tutor had given us the clear task of creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us. 
 
