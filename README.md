@@ -7,14 +7,12 @@ This contains the documentation of the work and development of my Milestone Proj
 
 I managed to brainstorm some ideas in a sketchbook. I had started off with general ideas related with my interests and going off of what the user would from each concept, how the layout would appear and the content that we would expect to find. I thought of concepts for websites that displayed information for niche movies that aren’t as popular, but also thought about who that would appeal to. I also believed that I would  have a three-section  webpage that focuses on fictional character’s basic info, preferences etc.
 
-**align centre**
+
 <p align = "center">
  <img width="4032" height="3024" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844"/>
 </p>
 
-``
-What is this?
-``
+
 
 ## User Stories
 Criteria to reach:
