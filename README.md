@@ -9,7 +9,7 @@ I managed to brainstorm some ideas in a sketchbook. I had started off with gener
 
 
 <p align = "center">
- <img width="4032" height="3024" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844"/>
+ <img width="403.2" height="302.4" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844"/>
 </p>
 
 
