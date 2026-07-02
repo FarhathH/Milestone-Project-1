@@ -15,6 +15,15 @@ I managed to brainstorm some ideas in a sketchbook. I had started off with gener
 
 
 ## User Stories
+
+
+
+## Coding
+
+
+
+
+
 Criteria to reach:
 * UX
 * Accessibility
