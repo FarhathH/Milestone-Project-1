@@ -1,4 +1,5 @@
 
+
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
 ## Context and Brainstorming the Project Idea
@@ -20,7 +21,7 @@ This contains the documentation of the work and development of my Milestone Proj
 ## Coding
 
 
-
+<img width="1272" height="1184" alt="beginning_of_web_page" src="https://github.com/user-attachments/assets/e37a5c87-c576-46bf-a903-d4ebb0b31616" />
 
 
 Criteria to reach:
