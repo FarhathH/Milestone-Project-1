@@ -8,11 +8,9 @@ This contains the documentation of the work and development of my Milestone Proj
 
 
 
-<p align = "center">
+<p align = "center" margin = "10px">
  <img width="403.2" height="302.4" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844"/>
-</p>
-<p align = "center">
-<img width="335.5" height="386" alt="MP1 mindmap" src="https://github.com/user-attachments/assets/e22ba0b7-3485-419f-aae6-48934f10e484" />
+ <img width="335.5" height="386" alt="MP1 mindmap" src="https://github.com/user-attachments/assets/e22ba0b7-3485-419f-aae6-48934f10e484" />
 </p>
 
 ## User Stories
