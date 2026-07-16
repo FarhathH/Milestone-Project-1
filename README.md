@@ -23,6 +23,9 @@ Thanks to the different UXD planes. I was able to break down a mind map.
 </p>
 
 
+I did think about the cultural context. My intended audience were parents wanting to have a fun time with their families. The main objective is to make sure that the parent/guardian would be able to navigate the website and pick a fun house experience for their choosing. Using the notes I wrote down on UX Design, I was able to break it down into key sections to get me to think about what sort of content would be suitable for achieving the business goals and user needs. B2C was the strategy research approach that I took. I only wanted to make the process fairly simple for the consumers who just want to find information about the attractions, make a choice (by buying a ticket) and selecting a date and time. Date and Time might be a feature that can be implemented later.
+
+
 <table align = "center">
    <tr>
     <th>Opportunity/Problem</th>
@@ -39,10 +42,15 @@ Thanks to the different UXD planes. I was able to break down a mind map.
      <td>3</td>
      <td>5</td>
    </tr>
-    <tr>
+   <tr>
      <td>Website malfunctioning</td>
      <td>5</td>
      <td>5</td>
+   </tr>
+   <tr>
+     <td>Users comparing it to an existing product</td>
+     <td>4</td>
+     <td>3</td>
    </tr>
 </table>
 
