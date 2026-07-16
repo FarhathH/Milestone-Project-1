@@ -2,7 +2,7 @@
 
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
-## Context and Brainstorming the Project Idea
+## Project Brainstorming and Planning
 
 This contains the documentation of the work and development of my Milestone Project 1. My Tutor had given us the clear task of creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us. I managed to brainstorm some ideas in a sketchbook. I had started off with general ideas related to my interests and going off of what the user would expect from each concept, how the layout would appear and the content that we would expect to find. I thought of concepts for websites that displayed information for niche movies that aren’t as popular, but also thought about who that would appeal to. I also believed that I would have a three-section webpage that focuses on fictional character’s basic info, preferences etc. I knew that I had to think about what content I would put in based on the idea.
 
