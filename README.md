@@ -15,6 +15,13 @@ This contains the documentation of the work and development of my Milestone Proj
 
 I believed that trying to jot down my ideas in a mind map could help me analyse what sort of content was needed and the type of audience it may appeal to. At this stage, I still struggled to stick to a concept for my webpage. At this point, I went on to visit existing websites to help me stick to a concept that I was satisfied with. With most of the ideas I had written down I had trouble establishing the target audience. With most of these ideas, I can understand the general audience, but none of these ideas would be very unique. At this point, I created different moodboards to trigger some inspiration for my webpage. I explored a few themes like Horror, Cuteness, Mystery etc. This did eventually inspire me to come up with a concept where the user…
 
+<p align = "center">
+<img width="1920" height="1080" alt="mixed_moodboard" src="https://github.com/user-attachments/assets/570a0868-77b6-4ecc-9ee4-b1c845eb4be2" />
+
+<img width="647" height="1402" alt="my_mp1_concept" src="https://github.com/user-attachments/assets/579e2f12-df9b-49ff-a816-3f18d9f3c1b0" />
+</p>
+
+
 ## User Stories
 
 
