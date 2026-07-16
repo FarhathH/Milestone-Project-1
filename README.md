@@ -22,6 +22,12 @@ I believed that trying to jot down my ideas in a mind map could help me analyse 
 </p>
 
 
+| Opportunity/Problem  | Importance | Visibility/Feasibility |
+| ------------- | ------------- | -------------------------- |
+| Content Cell  | Content Cell  | Content Cell |
+| Content Cell  | Content Cell  | Content Cell |
+
+
 ## User Stories
 
 
