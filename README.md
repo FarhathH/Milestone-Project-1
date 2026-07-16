@@ -23,11 +23,28 @@ Thanks to the different UXD planes. I was able to break down a mind map.
 </p>
 
 
-| Opportunity/Problem  | Importance | Visibility/Feasibility |
-| ------------- | ------------- | -------------------------- |
-| Content Cell  | Content Cell  | Content Cell |
-| Content Cell  | Content Cell  | Content Cell |
-
+<table align = "center">
+   <tr>
+    <th>Opportunity/Problem</th>
+    <th>Importance</th>
+    <th>Visibility/Feasibility</th>
+   </tr>
+   <tr>
+     <td>Lack of User Research</td>
+     <td>3</td>
+     <td>5</td>
+   </tr>
+   <tr>
+     <td>Comparison to similar products</td>
+     <td>3</td>
+     <td>5</td>
+   </tr>
+    <tr>
+     <td>Website malfunctioning</td>
+     <td>5</td>
+     <td>5</td>
+   </tr>
+</table>
 
 ## User Stories
 
