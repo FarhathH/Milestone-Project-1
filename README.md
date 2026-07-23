@@ -58,11 +58,12 @@ I did think about the cultural context. My intended audience were parents wantin
 
 ## User Stories
 
-I had just started off with creating the html and css files. I deployed it early as well.
+
 
 
 ## Coding
 
+I had just started off with creating the html and css files. I deployed it early as well.
 
 <img width="1272" height="1184" alt="beginning_of_web_page" src="https://github.com/user-attachments/assets/e37a5c87-c576-46bf-a903-d4ebb0b31616" />
 
