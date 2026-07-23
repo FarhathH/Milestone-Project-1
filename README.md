@@ -58,6 +58,7 @@ I did think about the cultural context. My intended audience were parents wantin
 
 ## User Stories
 
+I had just started off with creating the html and css files. I deployed it early as well.
 
 
 ## Coding
