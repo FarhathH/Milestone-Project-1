@@ -60,6 +60,29 @@ When I made the priority list for my table, I tried to think about problems that
     </tr>
  </table>
 
+ <table align = "center">
+  <tr>
+   <th>In Scope</th>
+   <th>Out of Scope</th>
+  </tr>
+  <tr>
+   <td>Simplfy navigation</td>
+   <td>Notifications</td>
+  </tr>
+  <tr>
+   <td>Improve findability of content</td>
+   <td>Third party integrations</td>
+  </tr>
+  <tr>
+   <td>User testing</td>
+   <td>Animating smoother transitions</td>
+  </tr>
+  <tr>
+   <td>Dropdown Menu</td>
+   <td>Date and Time in current timezone</td>
+  </tr>
+ </table>
+
 ## User Stories
 
 
