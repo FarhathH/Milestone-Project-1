@@ -28,6 +28,10 @@ I did think about the cultural context. My intended audience were parents wantin
 <p align = "center">
  <img width="632" height="322" alt="information architecture for mp1" src="https://github.com/user-attachments/assets/92c149d4-11d6-45a3-ad22-6f5c4dd4a070" />
 </p>
+
+When I made the priority list for my table, I tried to think about problems that could occur e.g. Website image not loading properly, looking too similar to existing products. I suspected there would need to be some sort of basket feature. The main issues that I had on my mind was getting the home page and the funhouse to have engaging content and visuals.
+
+
  <table align = "center">
     <tr>
      <th>Opportunity/Problem</th>
