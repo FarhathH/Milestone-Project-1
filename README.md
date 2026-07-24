@@ -2,7 +2,7 @@
 
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
-## Project Brainstorming and Planning
+## About
 
 This contains the documentation of the work and development of my Milestone Project 1. My Tutor had given us the clear task of creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us. I managed to brainstorm some ideas in a sketchbook. I had started off with general ideas related to my interests and going off of what the user would expect from each concept, how the layout would appear and the content that we would expect to find. I thought of concepts for websites that displayed information for niche movies that aren’t as popular, but also thought about who that would appeal to. I also believed that I would have a three-section webpage that focuses on fictional character’s basic info, preferences etc. I knew that I had to think about what content I would put in based on the idea.
 
@@ -12,6 +12,8 @@ This contains the documentation of the work and development of my Milestone Proj
  <img width="403.2" height="302.4" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844"/>
  <img width="335.5" height="386" alt="MP1 mindmap" src="https://github.com/user-attachments/assets/e22ba0b7-3485-419f-aae6-48934f10e484" />
 </p>
+
+## UX Strategy
 
 I believed that trying to jot down my ideas in a mind map could help me analyse what sort of content was needed and the type of audience it may appeal to. At this stage, I still struggled to stick to a concept for my webpage. At this point, I went on to visit existing websites to help me stick to a concept that I was satisfied with. With most of the ideas I had written down I had trouble establishing the target audience. With most of these ideas, I can understand the general audience, but none of these ideas would be very unique. At this point, I created different moodboards to trigger some inspiration for my webpage. I explored a few themes like Horror, Cuteness, Mystery etc. This did eventually inspire me to come up with a concept where the user can gather information and book tickets to enjoy a funhouse experience with their families/kids. 
 Thanks to the different UXD planes. I was able to break down a mind map.
@@ -59,6 +61,8 @@ When I made the priority list for my table, I tried to think about problems that
       <td>4</td>
     </tr>
  </table>
+
+ ## UX Scope
 
  <table align = "center">
   <tr>
