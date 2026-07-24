@@ -36,13 +36,13 @@ I did think about the cultural context. My intended audience were parents wantin
     </tr>
     <tr>
       <td>User get frustrated</td>
-      <td>3</td>
+      <td>5</td>
       <td>5</td>
     </tr>
     <tr>
       <td>User can't buy a ticket</td>
-      <td>3</td>
       <td>5</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>Website malfunctioning</td>
@@ -52,7 +52,7 @@ I did think about the cultural context. My intended audience were parents wantin
     <tr>
       <td>Users comparing it to an existing product</td>
       <td>2</td>
-      <td>3</td>
+      <td>4</td>
     </tr>
  </table>
 
