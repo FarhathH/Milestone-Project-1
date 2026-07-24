@@ -35,12 +35,12 @@ I did think about the cultural context. My intended audience were parents wantin
      <th>Visibility/Feasibility</th>
     </tr>
     <tr>
-      <td>Lack of User Research</td>
+      <td>User get frustrated</td>
       <td>3</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>Comparison to similar products</td>
+      <td>User can't buy a ticket</td>
       <td>3</td>
       <td>5</td>
     </tr>
@@ -51,7 +51,7 @@ I did think about the cultural context. My intended audience were parents wantin
     </tr>
     <tr>
       <td>Users comparing it to an existing product</td>
-      <td>4</td>
+      <td>2</td>
       <td>3</td>
     </tr>
  </table>
@@ -63,7 +63,7 @@ I did think about the cultural context. My intended audience were parents wantin
 
 ## Coding
 
-I had just started off with creating the html and css files. I deployed it early as well.
+I had just started off with creating the html and css files. I deployed it early as well to save me the trouble of doing so near the deadline.
 
 <img width="1272" height="1184" alt="beginning_of_web_page" src="https://github.com/user-attachments/assets/e37a5c87-c576-46bf-a903-d4ebb0b31616" />
 
