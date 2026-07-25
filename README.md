@@ -87,6 +87,8 @@ When I made the priority list for my table, I tried to think about problems that
   </tr>
  </table>
 
+## UX Skeleton
+
 ## User Stories
 
 
