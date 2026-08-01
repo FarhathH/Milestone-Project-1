@@ -62,6 +62,8 @@ When I made the priority list for my table, I tried to think about problems that
     </tr>
  </table>
 
+ ## Project Planning
+
  ## UX Scope
 
  <table align = "center">
@@ -88,11 +90,6 @@ When I made the priority list for my table, I tried to think about problems that
  </table>
 
 ## UX Skeleton
-
-## User Stories
-
-
-
 
 ## Coding
 
