@@ -66,6 +66,8 @@ When I made the priority list for my table, I tried to think about problems that
 
  ## Project Planning
 
+I took a break to focus on other tasks which helped me to reflect on the importance of my website having the bare minimum to be functional and accessible. I had to think about the main business goals and the needs of the user who will be accessing my website. I’m well aware that people have frequently gone to fun houses at fun fairs. My business would need to stand out. I realised that a good USP (unique selling point) would be a fictional funhouse that is the size of a mansion for people to explore. It is located on the outskirts of Bath, UK. I believed that this type of fun house could gain more attention.
+
 Primary business goal: 
 * Increase public foot traffic and popularity for fun houses.
 
