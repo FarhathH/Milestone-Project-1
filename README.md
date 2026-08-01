@@ -82,6 +82,9 @@ Client/User types:
 
 ## Skeleton
 
+<img width="4032" height="2775" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
+
+
  ## Scope
 
  <table align = "center">
