@@ -81,8 +81,17 @@ Client/User types:
   * Young energetic kids who need to use their energy somewhere and have a wacky time.
 
 ## Skeleton
+s
 
-<img width="4032" height="2775" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
+<p>
+  <img width="2016" height="950" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
+</p>
+
+<p>
+  <img width="1920" height="1080" alt="Funanza Website wireframes" src="https://github.com/user-attachments/assets/0f6e5673-6fca-4b5e-88f5-d85d22767ca1" />
+</p>
+
+
 
 
  ## Scope
