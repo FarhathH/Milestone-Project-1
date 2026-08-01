@@ -64,6 +64,20 @@ When I made the priority list for my table, I tried to think about problems that
 
  ## Project Planning
 
+Primary business goal: Increase public foot traffic and popularity for funhouses.
+
+Supporting business goals:
+* Show off attractions and increase customer interest.
+* Provide engaging content.
+* Encourage people to visit.
+
+Client/User types:
+* People who are often busy and need to take a break to enjoy themselves:
+  * (Parent(s))Families who want to enjoy the weekend off.
+  * Students who want to experience a fun atmosphere.
+  * Young energetic kids who need to use their energy somewhere and have a wacky time.
+
+
  ## UX Scope
 
  <table align = "center">
