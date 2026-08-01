@@ -66,7 +66,8 @@ When I made the priority list for my table, I tried to think about problems that
 
  ## Project Planning
 
-Primary business goal: Increase public foot traffic and popularity for fun houses.
+Primary business goal: 
+* Increase public foot traffic and popularity for fun houses.
 
 Supporting business goals:
 * Show off attractions and increase customer interest.
