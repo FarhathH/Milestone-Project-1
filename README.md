@@ -33,7 +33,7 @@ I did think about the cultural context. My intended audience were parents wantin
  <img width="632" height="322" alt="information architecture for mp1" src="https://github.com/user-attachments/assets/92c149d4-11d6-45a3-ad22-6f5c4dd4a070" />
 </p>
 
-When I made the priority list for my table, I tried to think about problems that could occur e.g. Website image not loading properly, looking too similar to existing products. I suspected there would need to be some sort of basket feature. The main issues that I had on my mind was getting the home page and the funhouse to have engaging content and visuals.
+When I made the priority list for my table, I tried to think about problems that could occur e.g. Website image not loading properly, looking too similar to existing products. I suspected there would need to be some sort of basket feature. The main issues that I had on my mind was getting the home page and the funhouse to have engaging content and visuals. Before, I had thought about the obvious issues that could arise with the website. The user could lose interest from lack of engagement, deployment could have bugs, or people mistake it for another website etc. At this stage, I hadn’t really thought about the goals and user’s needs yet. I was more concerned with how the user would react on a first impression.
 
 
  <table align = "center">
