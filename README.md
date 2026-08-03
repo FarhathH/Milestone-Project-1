@@ -127,7 +127,7 @@ I had only done a few before I decided to use these sketches as a reference for 
  
 ## Testing
 
-I deployed it early as possible to save me the trouble of doing so near the deadline.
+I deployed it as early as possible to save me the trouble of doing so near the deadline.
 
 <p align = "center">
   <img width="920" height="73" alt="proof-of-deployment" src="https://github.com/user-attachments/assets/d3a7cc8e-fc55-4484-a6ed-40cba037bc88" />  
@@ -138,16 +138,15 @@ I had implemented eternal resources such as Google Fonts, font awesome (for the 
 * Google Fonts:
   * Implemented an imported link of the fonts: 'Oi' and 'Fontdiner Swanky' and set them as the font-family for the 'body' and 'h1' selectors.
   * In the live server screenshot, both fonts are present so we can confirm that it works.
-
 * Font Awesome:
-  * Inserted the link at the bottom of the 'body' element. 
+  * Inserted the link at the bottom of the 'body' element.
   * Inserted an 'i frame' element within the 'h1' heading.
   * The live server showed the title and the crown (the i frame). This confirmed that the font awesome kit worked.
-
 * Bootstrap:
   * Inserted the JavaScript link at the bottom of the 'body' element and the CSS link in the 'head' element.
   * From the Bootstrap Doc website, I tried to add the input fields.
-  * From the moment I had saved the change, the live server view showed the 'email' and 'password' input fields. The bootstrap links worked properly. 
+  * From the moment I had saved the change, the live server view showed the 'email' and 'password' input fields. The bootstrap links worked properly.
+ 
 
 
 
