@@ -3,32 +3,66 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Funanza | Home</title>
+
+         <!--favicons-->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
          <!--Bootstrap CSS Link-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <!--Custom CSS stylesheet-->
         <link rel="stylesheet" href="assets/css/fun-style.css">
-        <title>Funanza</title>
-        <!--favicons-->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    </head>
-    <body>
-        <!--testing the font awesome kit and google fonts-->    
-        <h1><i class="fa-brands fa-web-awesome"></i>Funanza</h1>
-        <p>is here</p>
-
-        <!--testing bootstrap link-->
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-            <label for="floatingInput">Email address</label>
-        </div>
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
-            <label for="floatingPassword">Password</label>
-        </div>
         
+       
+    </head>
+    <!--classes on body set to work with mt-auto so that the 
+    footer stays on the bottom of the page.-->
+    <body class="d-flex flex-column min-vh-100">
+
+        <!--Navigation-->
+        <div>Navigation</div>
+
+        <!--Header with hero image-->
+        <header class="container">
+            <row class="col-12 col-xl-6">Hero image</row>
+            <div class="container">
+                <div class="row"><row class="col-12 col-xl-6">About us text</row></div>
+            </div>
+            
+        </header>
+
+        <!--Main element to hold the key sections of the home page. 
+        It's not a part of the grid structure.-->
+        <main>
+            <!--Fun activities quick info-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">Brief info section</div>
+                    <div class="col-12 col-md-6 col-xl-4">card info</div>
+                    <div class="col-12 col-md-6 col-xl-4">card info</div>
+                    <div class="col-12 col-md-6 col-xl-4">card info</div>
+                    <div class="col-12 col-md-6 col-xl-4">card info</div>
+                </div>
+            </div>
+        </main>
+        
+        <!--Footer-->
+        <!--Footer / contact section-->
+        <!--auto margin class to push the footer to the bottom-->
+        <footer class="mt-auto">
+            <div class="container justify-content-center">
+                <div class="row">
+                    <div class="col-12"><strong>Opening times</strong></div>
+                    <div class="col-12 col-md-4 col-xl-3">table displaying Opening times</div>
+                    <div class="col-12">social networks</div>
+                </div>
+            </div>
+        </footer>
+
+
         <!--Bootstrap jsDelivr Script-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

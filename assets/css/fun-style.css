@@ -1,15 +1,33 @@
 /*Imported font link*/
 @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Oi&display=swap');
 
+
+/*CSS variables which are globally accessible to the entire CSS file*/
+:root{
+    --secondary-font: "Oi", serif;
+    --primary-font:"Fontdiner Swanky", serif;
+}
+
+
+/*testing the CSS variables*/
 body{
-    font-family: "Fontdiner Swanky", serif;
+    font-family: var(--primary-font);
 }
 
-h1{
-    font-family: "Oi", serif;
+h1,
+h2,
+h3{
+    font-family: var(--secondary-font);
 }
 
-/*
-    
-    
-*/
+
+/*Checking layout and borders*/
+.container{
+    border: 2px solid black;
+}
+
+.col-12{
+    background-color: lightgrey;
+    border: 2px solid white;
+}
+
