@@ -84,11 +84,13 @@ Client/User types:
   * Young energetic kids who need to use their energy somewhere and have a wacky time.
 
 ## Skeleton
-s
+I had struggled to come up with some design for the interface of my website. I had brainstormed to look for different layouts to use by sketching some thumbnails. I wanted to quickly visualise ideas from my head. The pen and paper stage was where I had to decide on a layout design that I would be happy with. I quickly moved onto doing the rough wireframes as I didn’t want to fall behind no time. I went with the standard format for the navigation bar section and the footer sections. I put in a placeholder logo as I didn’t have a name for my website at the time.
 
 <p>
   <img width="2016" height="950" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
 </p>
+
+I had only done a few before I decided to use these sketches as a reference for creating wireframes using ‘canva’. I had made interface designs for different screen sizes. This was used as a guideline for me to structure everything properly. I managed to finally name the website ‘Funanza’. It took me a couple of hours to make a firm decision and execute that as a lo-fi wireframe.
 
 <p>
   <img width="1920" height="1080" alt="Funanza Website wireframes" src="https://github.com/user-attachments/assets/0f6e5673-6fca-4b5e-88f5-d85d22767ca1" />
@@ -154,7 +156,7 @@ I had implemented eternal resources such as Google Fonts, font awesome (for the 
  <img width="600" height="225" alt="live server" src="https://github.com/user-attachments/assets/c0aff8bf-ca48-40bf-9c07-b137b98e038a" />
 </p>
 
-To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator
+To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator. Everything seemed to be clear with no errors, but a warning about the imported link not being checked through the ‘direct input’ method. Once I was satisfied, I committed to my repository and saved the files.
 
 <p>
   <img width="1125" height="720" alt="validator proof" src="https://github.com/user-attachments/assets/3e9edaa5-8d6b-45e7-a84b-38a61d11e65e" />
