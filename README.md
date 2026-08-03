@@ -129,7 +129,9 @@ s
 
 I deployed it early as well to save me the trouble of doing so near the deadline.
 
-<img width="1272" height="1184" alt="beginning_of_web_page" src="https://github.com/user-attachments/assets/e37a5c87-c576-46bf-a903-d4ebb0b31616" />
+<p align = "center">
+  <img width="636" height="592" alt="beginning_of_web_page" src="https://github.com/user-attachments/assets/e37a5c87-c576-46bf-a903-d4ebb0b31616" />
+</p>
 
 
 
