@@ -26,6 +26,7 @@ Thanks to the different UXD planes. I was able to break down a mind map.
 <img width="323.5" height="701" alt="my_mp1_concept" src="https://github.com/user-attachments/assets/579e2f12-df9b-49ff-a816-3f18d9f3c1b0" />
 </p>
 
+## Structure
 
 I did think about the cultural context. My intended audience were parents wanting to have a fun time with their families. The main objective is to make sure that the parent/guardian would be able to navigate the website and pick a fun house experience for their choosing. Using the notes I wrote down on UX Design, I was able to break it down into key sections to get me to think about what sort of content would be suitable for achieving the business goals and user needs. B2C was the strategy research approach that I took. I only wanted to make the process fairly simple for the consumers who just want to find information about the attractions, make a choice (by buying a ticket) and selecting a date and time. Date and Time might be a feature that can be implemented later.
 
@@ -121,15 +122,25 @@ s
   </tr>
  </table>
 
+ 
+## Testing
+
+I deployed it early as possible to save me the trouble of doing so near the deadline.
+
+<p align = "center">
+  <img width="920" height="73" alt="proof-of-deployment" src="https://github.com/user-attachments/assets/d3a7cc8e-fc55-4484-a6ed-40cba037bc88" />  
+</p>
+
+I had implemented eternal resources such as Google Fonts, font awesome ()
+
+<p>
+ <img width="2560" height="1440" alt="implemented external resources" src="https://github.com/user-attachments/assets/1c314afc-dc12-47a2-86d9-bd36c4f66790" />
+</p>
+
 ## Accessibility
 ## Responsive Design
 
 
-## Testing
-
-I deployed it early as well to save me the trouble of doing so near the deadline.
-
-<img width="1272" height="1184" alt="beginning_of_web_page" src="https://github.com/user-attachments/assets/e37a5c87-c576-46bf-a903-d4ebb0b31616" />
 
 
 
