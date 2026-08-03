@@ -105,11 +105,11 @@ s
    <th>Out of Scope</th>
   </tr>
   <tr>
-   <td>Simplfy navigation</td>
+   <td>User friendly navigation and responsive design</td>
    <td>Notifications</td>
   </tr>
   <tr>
-   <td>Improve findability of content</td>
+   <td>Engaging content (Images and font)</td>
    <td>Third party integrations</td>
   </tr>
   <tr>
@@ -117,7 +117,7 @@ s
    <td>Animating smoother transitions</td>
   </tr>
   <tr>
-   <td>Dropdown Menu</td>
+   <td>Contact detail and opening times</td>
    <td>Date and Time in current timezone</td>
   </tr>
  </table>
@@ -131,10 +131,33 @@ I deployed it early as possible to save me the trouble of doing so near the dead
   <img width="920" height="73" alt="proof-of-deployment" src="https://github.com/user-attachments/assets/d3a7cc8e-fc55-4484-a6ed-40cba037bc88" />  
 </p>
 
-I had implemented eternal resources such as Google Fonts, font awesome ()
+I had implemented eternal resources such as Google Fonts, font awesome (for the kit link), Bootstrap version 5.3 for quicker development. Before I could progress further, I needed to know if all functions worked. I did this with the following tasks.
+
+* Google Fonts:
+  * Implemented an imported link of the fonts: 'Oi' and 'Fontdiner Swanky' and set them as the font-family for the 'body' and 'h1' selectors.
+  * In the live server screenshot, both fonts are present so we can confirm that it works.
+
+* Font Awesome:
+  * Inserted the link at the bottom of the 'body' element. 
+  * Inserted an 'i frame' element within the 'h1' heading.
+  * The live server showed the title and the crown (the i frame). This confirmed that the font awesome kit worked.
+
+* Bootstrap:
+  * Inserted the javaScript link at the bottom of the 'body' element and the CSS link in the 'head' element.
+  * From the Bootstrap Doc website, I tried to add the input fields.
+  * From the moment I had saved the change, the live server view showed the 'email' and 'password' input fields. The bootstrap links worked properly. 
+
+
+
+<p align = "center">
+ <img width="400" height="300" alt="testing setup" src="https://github.com/user-attachments/assets/cdd2aff7-b2ad-4d5b-80cf-c70d27abd3bb" />
+ <img width="600" height="225" alt="live server" src="https://github.com/user-attachments/assets/c0aff8bf-ca48-40bf-9c07-b137b98e038a" />
+</p>
+
+To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator
 
 <p>
- <img width="2560" height="1440" alt="implemented external resources" src="https://github.com/user-attachments/assets/1c314afc-dc12-47a2-86d9-bd36c4f66790" />
+  <img width="1125" height="720" alt="validator proof" src="https://github.com/user-attachments/assets/3e9edaa5-8d6b-45e7-a84b-38a61d11e65e" />
 </p>
 
 ## Accessibility
