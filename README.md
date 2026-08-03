@@ -146,9 +146,6 @@ I had implemented eternal resources such as Google Fonts, font awesome (for the 
   * Inserted the JavaScript link at the bottom of the 'body' element and the CSS link in the 'head' element.
   * From the Bootstrap Doc website, I tried to add the input fields.
   * From the moment I had saved the change, the live server view showed the 'email' and 'password' input fields. The bootstrap links worked properly.
- 
-
-
 
 <p align = "center">
  <img width="400" height="300" alt="testing setup" src="https://github.com/user-attachments/assets/cdd2aff7-b2ad-4d5b-80cf-c70d27abd3bb" />
@@ -157,12 +154,45 @@ I had implemented eternal resources such as Google Fonts, font awesome (for the 
 
 To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator. Everything seemed to be clear with no errors, but a warning about the imported link not being checked through the ‘direct input’ method. Once I was satisfied, I committed to my repository and saved the files. For the favicon in my window tab, that was quickly created in GIMP 2.1. I inserted that and deleted the cache for it to show up in the window tab.
 
-<p>
+<p align = "center">
   <img width="1125" height="720" alt="validator-proof-with-deploy" src="https://github.com/user-attachments/assets/2e73eb2e-e5ad-4586-9750-2c784d46c9aa" />
 </p>
 
-## Accessibility
+
 ## Responsive Design
+I started coding the sections just to get the rough template for my homepage:
+* Navigation div:
+  * Contains navigation items with hyperlinks.
+  * Allows users to access different pages.
+* Header:
+  * Contains text about the Funanza funhouse and some sort of hero banner.
+  * Serves as a focal point.
+* Main:
+  * Contains the main info on various activities for people to do.
+  * Free stock photos of people with text will be there.
+* Footer:
+  * Contains the social network links and the opening times.
+
+<p align = "center">
+ <img width="576" height="437" alt="setting-up-the-sections" src="https://github.com/user-attachments/assets/4cb73e03-c10c-40ef-b6a9-a9868b18c782" />
+
+</p>
+
+Using some custom CSS and CSS variables helped me to visualise how the website would look on many different screens. It was reassuring to see that the header, main and footer are responsive to all the screen sizes at this stage. The one mistake I had made was using the four divs in the footer designed to hold four different sections as placeholders for the social networks. 
+
+<p align = "center">
+ <img width="360" height="225" alt="laptop-screen" src="https://github.com/user-attachments/assets/4ab29e48-0bd8-4237-80f3-2fdf63a5ce35" />
+ <img width="622" height="315" alt="tablet-and-phone-screens" src="https://github.com/user-attachments/assets/a79fb15a-7ea0-4d6d-8932-2c74291dfd43" />
+</p>
+
+This was a quick fix via tweaking the lines of code in the footer class. After modifying the child div classes of the footer element to only include child divs for Heading, the opening times and the social network hyperlinks, I ended up with a responsive footer that I can implement the content in eventually.
+
+<p align = "center">
+  <img width="672" height="467" alt="update responsive footer" src="https://github.com/user-attachments/assets/bcda5faa-61a9-4cad-bda2-b0a9a004dc44" />
+</p>
+
+## Accessibility
+
 
 
 
