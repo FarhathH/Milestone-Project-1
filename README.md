@@ -158,6 +158,21 @@ To be extra safe, I loaded the deployed version and put the HTML and CSS through
   <img width="1125" height="720" alt="validator-proof-with-deploy" src="https://github.com/user-attachments/assets/2e73eb2e-e5ad-4586-9750-2c784d46c9aa" />
 </p>
 
+I got to the stage when I noticed the problem with the header whilst constructing the interface. The main element has everything presented just fine, but the header element seemed out of place. It seemed the same regardless of what the screen size was.
+
+<p align= "center">
+ <img width="1237" height="209" alt="problem-with-header" src="https://github.com/user-attachments/assets/ae74eed8-b219-4bf5-b2ff-7b093bc30d2b" />
+</p>
+
+So I put it through the HTML validator to check. Realised that according to the errors noted, line 30 where I placed the elements have a few row tags put there by mistake. They were supposed child divs with a ‘col’ class nested within another div with a row class. The typos made have resulted in this error.
+
+<p align= "center">
+  <img width="563" height="336" alt="HTML-validator-results" src="https://github.com/user-attachments/assets/8604e6f5-4745-48bc-a0dd-74aaeaf5826b" />
+</p>
+So at this point, I decided to make the corrections before saving the changes and committing. After loading the live server again, the header was fixed.
+<p align = "center">
+  <img width="843" height="658" alt="coding-error-comparison" src="https://github.com/user-attachments/assets/438f7ad8-c3b0-41fb-b045-6f1ae0f8748c" />
+</p>
 
 ## Responsive Design
 I started coding the sections just to get the rough template for my homepage:
@@ -181,8 +196,8 @@ I started coding the sections just to get the rough template for my homepage:
 Using some custom CSS and CSS variables helped me to visualise how the website would look on many different screens. It was reassuring to see that the header, main and footer are responsive to all the screen sizes at this stage. The one mistake I had made was using the four divs in the footer designed to hold four different sections as placeholders for the social networks. 
 
 <p align = "center">
- <img width="360" height="225" alt="laptop-screen" src="https://github.com/user-attachments/assets/4ab29e48-0bd8-4237-80f3-2fdf63a5ce35" />
- <img width="622" height="315" alt="tablet-and-phone-screens" src="https://github.com/user-attachments/assets/a79fb15a-7ea0-4d6d-8932-2c74291dfd43" />
+ <img width="140" height="112" alt="laptop-screen" src="https://github.com/user-attachments/assets/4ab29e48-0bd8-4237-80f3-2fdf63a5ce35" />
+ <img width="311" height="157" alt="tablet-and-phone-screens" src="https://github.com/user-attachments/assets/a79fb15a-7ea0-4d6d-8932-2c74291dfd43" />
 </p>
 
 This was a quick fix via tweaking the lines of code in the footer class. After modifying the child div classes of the footer element to only include child divs for Heading, the opening times and the social network hyperlinks, I ended up with a responsive footer that I can implement the content in eventually.
