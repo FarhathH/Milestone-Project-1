@@ -145,7 +145,7 @@ I had implemented eternal resources such as Google Fonts, font awesome (for the 
   * The live server showed the title and the crown (the i frame). This confirmed that the font awesome kit worked.
 
 * Bootstrap:
-  * Inserted the javaScript link at the bottom of the 'body' element and the CSS link in the 'head' element.
+  * Inserted the JavaScript link at the bottom of the 'body' element and the CSS link in the 'head' element.
   * From the Bootstrap Doc website, I tried to add the input fields.
   * From the moment I had saved the change, the live server view showed the 'email' and 'password' input fields. The bootstrap links worked properly. 
 
@@ -156,10 +156,10 @@ I had implemented eternal resources such as Google Fonts, font awesome (for the 
  <img width="600" height="225" alt="live server" src="https://github.com/user-attachments/assets/c0aff8bf-ca48-40bf-9c07-b137b98e038a" />
 </p>
 
-To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator. Everything seemed to be clear with no errors, but a warning about the imported link not being checked through the ‘direct input’ method. Once I was satisfied, I committed to my repository and saved the files.
+To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator. Everything seemed to be clear with no errors, but a warning about the imported link not being checked through the ‘direct input’ method. Once I was satisfied, I committed to my repository and saved the files. For the favicon in my window tab, that was quickly created in GIMP 2.1. I inserted that and deleted the cache for it to show up in the window tab.
 
 <p>
-  <img width="1125" height="720" alt="validator proof" src="https://github.com/user-attachments/assets/3e9edaa5-8d6b-45e7-a84b-38a61d11e65e" />
+  <img width="1125" height="720" alt="validator-proof-with-deploy" src="https://github.com/user-attachments/assets/2e73eb2e-e5ad-4586-9750-2c784d46c9aa" />
 </p>
 
 ## Accessibility
