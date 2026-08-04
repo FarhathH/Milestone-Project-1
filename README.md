@@ -206,6 +206,16 @@ This was a quick fix via tweaking the lines of code in the footer class. After m
   <img width="672" height="467" alt="update responsive footer" src="https://github.com/user-attachments/assets/bcda5faa-61a9-4cad-bda2-b0a9a004dc44" />
 </p>
 
+I had soon started making the contact.html page. Because this was a contact page, I intended for this to contain the details for the location, address and phone number. I edited the code to keep the embed location div separate from the address/phone number div. This was intentionally done to emulate the responsive design as close to my wireframe as possible.
+
+<p align= "center">
+ <img width="834" height="150" alt="editing the bootstrap details" src="https://github.com/user-attachments/assets/31a3eac5-b5c5-4bbf-937f-e5d4fb71928d" />
+</p>
+<p align = "center">
+ <img width="723" height="452" alt="contact-page-laptop" src="https://github.com/user-attachments/assets/2ac50d7c-58b7-4fb6-8a46-abad090656ef" />
+ <img width="1155" height="577" alt="contact-page-phone-and-tablet" src="https://github.com/user-attachments/assets/5c1952d1-4e20-40f2-819e-3279e5963363" />
+</p>
+
 ## Accessibility
 
 
