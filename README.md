@@ -216,6 +216,13 @@ I had soon started making the contact.html page. Because this was a contact page
  <img width="1155" height="577" alt="contact-page-phone-and-tablet" src="https://github.com/user-attachments/assets/5c1952d1-4e20-40f2-819e-3279e5963363" />
 </p>
 
+I used my wireframes as a reference to edit the code to create the ticket prices page. This page contains a collage banner and a table with different prices. There were only placeholders at the time. I was focused on getting the page to respond to all screen sizes the way it was intended according to the wireframe designs. I did tweak the header bootstrap settings for the brief info to display beneath the title on all screen sizes. I had used different font-family for placeholder purposes as well.
+
+<p align="center">
+ <img width="621" height="246.25" alt="ticket-page reponsive design" src="https://github.com/user-attachments/assets/8a7de521-0feb-4b5d-b8e1-ae0d32e4e098" />
+ <img width="486" height="161" alt="header-bootstrap-change" src="https://github.com/user-attachments/assets/52e70c52-f608-417e-87b5-2db313f478bc" />
+</p>
+
 ## Accessibility
 
 
