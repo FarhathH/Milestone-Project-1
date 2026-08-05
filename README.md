@@ -245,9 +245,12 @@ I went back and decided to re-do the layout design for my website pages to give 
  <img width="640" height="360" alt="updated layout design" src="https://github.com/user-attachments/assets/832a2627-84f8-465f-974b-298828fec0d8" />
 </p>
 
-I started to put together the header content and placed a bootstrap carousel.
+I started to put together the header content and placed a bootstrap carousel. The video link demonstrates that because the images were different sizes the main section would jolt up and down on occasion which wasn't good and the user would likely be confused about why that is there.
 <p align="center">
-https://github.com/user-attachments/assets/0dcc4a8d-7a87-4e86-ac3b-dbc249660210
+Responsive Error video link:
+https://github.com/user-attachments/assets/db4fda16-cbe3-461f-9e68-dbe15d78527e
+
+Error Sorted video link:
 </p>
 
 ## Accessibility
