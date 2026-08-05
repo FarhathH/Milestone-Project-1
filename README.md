@@ -245,6 +245,11 @@ I went back and decided to re-do the layout design for my website pages to give 
  <img width="640" height="360" alt="updated layout design" src="https://github.com/user-attachments/assets/832a2627-84f8-465f-974b-298828fec0d8" />
 </p>
 
+I started to put together the header content and placed a bootstrap carousel.
+<p align="center">
+https://github.com/user-attachments/assets/0dcc4a8d-7a87-4e86-ac3b-dbc249660210
+</p>
+
 ## Accessibility
 
 I had finally edited the navbar after checking that all the links worked. I added a dark background colour to my colour scheme at the time by removing the ‘bg-body-tertiary’ class from the nav tag so that it didn’t override the navbar id that was applied. As great as it was to change the background, the font is now difficult to read in the navbar unless you squint your eyes. That wasn’t ideal. So I went back to the navbar in my file and searched the bootstrap documentation to apply the ‘data-bs-theme="dark"’ to the nav tag. This enabled all of the content inside to be lighter and have a sharper contrast to the background colour. It made it easier for users to read the navbar. 
