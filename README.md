@@ -223,6 +223,11 @@ I used my wireframes as a reference to edit the code to create the ticket prices
  <img width="486" height="161" alt="header-bootstrap-change" src="https://github.com/user-attachments/assets/52e70c52-f608-417e-87b5-2db313f478bc" />
 </p>
 
+I went back and decided to re-do the layout design for my website pages to give myself a reference for the rough layout based on the wireframe designs. I double checked with the dev tools and they were still responsive to all screen sizes.
+
+<p align="center">
+ <img width="640" height="360" alt="updated layout design" src="https://github.com/user-attachments/assets/832a2627-84f8-465f-974b-298828fec0d8" />
+</p>
 ## Accessibility
 
 
