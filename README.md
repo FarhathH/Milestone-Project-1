@@ -245,6 +245,14 @@ I went back and decided to re-do the layout design for my website pages to give 
  <img width="640" height="360" alt="updated layout design" src="https://github.com/user-attachments/assets/832a2627-84f8-465f-974b-298828fec0d8" />
 </p>
 
+I started to put together the header content and placed a bootstrap carousel. The video link demonstrates that because the images were different sizes the main section would jolt up and down on occasion which wasn't good and the user would likely be confused about why that is there.
+<p align="center">
+Responsive Error video link:
+https://github.com/user-attachments/assets/db4fda16-cbe3-461f-9e68-dbe15d78527e
+
+Error Sorted video link:
+</p>
+
 ## Accessibility
 
 I had finally edited the navbar after checking that all the links worked. I added a dark background colour to my colour scheme at the time by removing the ‘bg-body-tertiary’ class from the nav tag so that it didn’t override the navbar id that was applied. As great as it was to change the background, the font is now difficult to read in the navbar unless you squint your eyes. That wasn’t ideal. So I went back to the navbar in my file and searched the bootstrap documentation to apply the ‘data-bs-theme="dark"’ to the nav tag. This enabled all of the content inside to be lighter and have a sharper contrast to the background colour. It made it easier for users to read the navbar. 
@@ -252,6 +260,13 @@ I had finally edited the navbar after checking that all the links worked. I adde
 <p align="center">
  <img width="753" height="255" alt="contrast-issue" src="https://github.com/user-attachments/assets/ffccbfce-7f1c-4baa-9525-72ebd8af638f" />
 <img width="980" height="171" alt="added-dark-theme" src="https://github.com/user-attachments/assets/36a3af1f-21c5-4c4c-a299-480c221b023c" />
+</p>
+
+I added a logo for the navbar to replace the navbar placeholder. I was initially worried about how the logo would look in the navbar with the background colour, but the logo sticks well for the user as the white circle contrasts with the darker background. The balloons have a darker colour scheme to contrast with the white circle. I did resize after comparing the difference in height between the logo and the navbar.
+
+<p align="center">
+ <img width="1837" height="82" alt="added-logo" src="https://github.com/user-attachments/assets/5f0e998e-cd6e-4bf2-9cad-655320297caa" />
+<img width="1183" height="51" alt="resized-logo" src="https://github.com/user-attachments/assets/b4f6c176-9ab9-4b4a-8a19-8a54817fff0c" />
 </p>
 
 
