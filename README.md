@@ -254,6 +254,13 @@ I had finally edited the navbar after checking that all the links worked. I adde
 <img width="980" height="171" alt="added-dark-theme" src="https://github.com/user-attachments/assets/36a3af1f-21c5-4c4c-a299-480c221b023c" />
 </p>
 
+I added a logo for the navbar to replace the navbar placeholder. I was initially worried about how the logo would look in the navbar with the background colour, but the logo sticks well for the user as the white circle contrasts with the darker background. The balloons have a darker colour scheme to contrast with the white circle. I did resize after comparing the difference in height between the logo and the navbar.
+
+<p align="center">
+ <img width="1837" height="82" alt="added-logo" src="https://github.com/user-attachments/assets/5f0e998e-cd6e-4bf2-9cad-655320297caa" />
+<img width="1183" height="51" alt="resized-logo" src="https://github.com/user-attachments/assets/b4f6c176-9ab9-4b4a-8a19-8a54817fff0c" />
+</p>
+
 
 
 
