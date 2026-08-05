@@ -23,15 +23,41 @@
     <body class="d-flex flex-column min-vh-100">
 
         <!--Navigation-->
-        <div>Navigation</div>
+        <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/favicon-v.2/logo.ico" 
+                    class="logo" alt="The logo. White circle with a light purple ballon, a blue balloon and a green balloon.">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto"> <!--ms-auto: Adds margin on the left side.-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ticket-fare.html">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="booking-enquiry.html">Booking a Ticket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
          <!--Header with hero image-->
-         <header id="header" class="container">
+         <header id="header" class="container section">
             <div class="row">
                 <div class="col-12 col-md-12 col-xl-6">
                     <h1 class="display-3">Contact</h1>
                     <p class="lead display-6 sub-heading-color">
-                        Find us
+                        Have questions?
                     </p>
                     <p>
                         Extra info
@@ -49,8 +75,11 @@
                 <div class="row">
                     <div class="col-12 col-md-12 col-xl-12">location and contact heading</div>  
                     <div class="col-12 col-md-12 col-xl-6">
-                            <p>address</p>
-                            <p>phone nummber</p>
+                        <p>
+                            <div>address</div>
+                            <div>phone nummber</div>
+                            <div>Email address</div>    
+                        </p>
                     </div>
                     <div class="col-12 col-md-12 col-xl-6">
                         embeded location
