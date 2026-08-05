@@ -31,9 +31,14 @@ h3{
     color: var(--highlight-color);
 }
 
+/*reusable for sections all webpages*/
 .section{
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+#navbar{
+    background-color: var(--primary-color);
 }
 
 /*Checking layout and borders*/
