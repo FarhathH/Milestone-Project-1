@@ -174,11 +174,18 @@ So at this point, I decided to make the corrections before saving the changes an
   <img width="843" height="658" alt="coding-error-comparison" src="https://github.com/user-attachments/assets/438f7ad8-c3b0-41fb-b045-6f1ae0f8748c" />
 </p>
 
-Tested the deployed website again after adding a navbar. When I checked with the dev tools in the browser.
+Tested the deployed website again after adding a navbar. When I checked with the dev tools in the browser. Whilst the navbar’s screen response was fine, the ‘Booking Enquiry’ heading would glitch out when I would smoothly move it into the screen size of a tablet. I thought that was strange. I decided to put it through the HTML and CSS validator to check for any upcoming errors that I may not have noticed. Good news was that there are no CSS errors, but there were warnings that the imported links and CSS variables are not checked. The HTML error was the h3 tag on line 51 for my file.
+
 <p align = "center">
- <img width="781" height="878" alt="testing-deployed-version" src="https://github.com/user-attachments/assets/2456b6b2-b20a-4155-b078-786519448442" />
- <img width="973" height="193" alt="booking-page-html-validatot-test" src="https://github.com/user-attachments/assets/0f441940-fafd-4f8d-8b48-060719fd3140" />
-<img width="1000" height="221" alt="css-validator-test-clear" src="https://github.com/user-attachments/assets/50a2ea88-0c02-40b2-95f7-f8a2d1a5cb67" />
+ <img width="390" height="439" alt="testing-deployed-version" src="https://github.com/user-attachments/assets/2456b6b2-b20a-4155-b078-786519448442" />
+ <img width="381" height="92" alt="booking-page-html-validatot-test" src="https://github.com/user-attachments/assets/0f441940-fafd-4f8d-8b48-060719fd3140" />
+<img width="500" height="110" alt="css-validator-test-clear" src="https://github.com/user-attachments/assets/50a2ea88-0c02-40b2-95f7-f8a2d1a5cb67" />
+</p>
+
+When I looked through the file and changed the h1 tag to a p tag, that still didn't solve the issue with the glitched heading. I decided to look at the line of code with the ‘Booking Enquiry’ heading inside. I forgot to use the bootstrap ‘col’ class for ‘md’. Changing that actually solved the issue.
+
+<p align= "center">
+ <img width="996" height="450" alt="code-comparison" src="https://github.com/user-attachments/assets/0919103c-1c63-4712-8024-4481e87efc78" />
 </p>
 
 
