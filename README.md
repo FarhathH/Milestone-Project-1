@@ -182,7 +182,7 @@ Tested the deployed website again after adding a navbar. When I checked with the
 <img width="500" height="110" alt="css-validator-test-clear" src="https://github.com/user-attachments/assets/50a2ea88-0c02-40b2-95f7-f8a2d1a5cb67" />
 </p>
 
-When I looked through the file and changed the h1 tag to a p tag, that still didn't solve the issue with the glitched heading. I decided to look at the line of code with the ‘Booking Enquiry’ heading inside. I forgot to use the bootstrap ‘col’ class for ‘md’. Changing that actually solved the issue.
+When I looked through the file and changed the h1 tag to a p tag, that still didn't solve the issue with the glitched heading. I decided to look at the line of code with the ‘Booking Enquiry’ heading inside. I forgot to set the medium setting for the ‘col’ class. Changing that actually solved the issue. 
 
 <p align= "center">
  <img width="996" height="450" alt="code-comparison" src="https://github.com/user-attachments/assets/0919103c-1c63-4712-8024-4481e87efc78" />
