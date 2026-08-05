@@ -174,6 +174,15 @@ So at this point, I decided to make the corrections before saving the changes an
   <img width="843" height="658" alt="coding-error-comparison" src="https://github.com/user-attachments/assets/438f7ad8-c3b0-41fb-b045-6f1ae0f8748c" />
 </p>
 
+Tested the deployed website again after adding a navbar. When I checked with the dev tools in the browser.
+<p align = "center">
+ <img width="781" height="878" alt="testing-deployed-version" src="https://github.com/user-attachments/assets/2456b6b2-b20a-4155-b078-786519448442" />
+ <img width="973" height="193" alt="booking-page-html-validatot-test" src="https://github.com/user-attachments/assets/0f441940-fafd-4f8d-8b48-060719fd3140" />
+<img width="1000" height="221" alt="css-validator-test-clear" src="https://github.com/user-attachments/assets/50a2ea88-0c02-40b2-95f7-f8a2d1a5cb67" />
+</p>
+
+
+
 ## Responsive Design
 I started coding the sections just to get the rough template for my homepage:
 * Navigation div:
