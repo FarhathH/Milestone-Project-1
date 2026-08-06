@@ -54,7 +54,7 @@
          <!--Header with hero image-->
          <header id="header" class="container section">
             <div class="row">
-                <div class="col-12 col-md-12 col-xl-6">
+                <div class="col-12 col-md-12 col-xl-6 text-center text-md-center text-xl-start">
                     <h1 class="display-3">Contact</h1>
                     <p class="lead display-6 sub-heading-color">
                         Have questions?
@@ -64,7 +64,27 @@
                     </p>
                 </div> 
                 <div class="col-12 col-md-12 col-xl-6">
-                    <img src="assets/images/countryside.jpg" class="d-block w-100" alt="Image of countryside view">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/countryside.jpg" class="d-block w-100" alt="A countryside view">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/countryside-2.jpg" class="d-block w-100" alt="A wooden basin in a field">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/city.jpg" class="d-block w-100" alt="A citybridge view.">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div> 
             </div>  
         </header>
