@@ -245,12 +245,21 @@ I went back and decided to re-do the layout design for my website pages to give 
  <img width="640" height="360" alt="updated layout design" src="https://github.com/user-attachments/assets/832a2627-84f8-465f-974b-298828fec0d8" />
 </p>
 
-I started to put together the header content and placed a bootstrap carousel. The video link demonstrates that because the images were different sizes the main section would jolt up and down on occasion which wasn't good and the user would likely be confused about why that is there.
-<p align="center">
-Responsive Error video link:
-https://github.com/user-attachments/assets/db4fda16-cbe3-461f-9e68-dbe15d78527e
+I started to put together the header content and placed a bootstrap carousel. The video link demonstrates that because the images were different sizes the main section would jolt up and down on occasion which wasn't good and the user would likely be confused about why that is there. So I decided to scale all the images to be the same width and height. After that the carousel seemed much smoother in comparison.
 
-Error Sorted video link:
+<p align="center">
+  Responsive Error video link:
+  https://github.com/user-attachments/assets/db4fda16-cbe3-461f-9e68-dbe15d78527e
+ 
+ Error Sorted video link:
+  https://github.com/user-attachments/assets/5f3ebc70-6ad2-44fb-b0b6-8b9eb914f36a
+</p>
+
+Once that was done, I managed to add some header content for my webpages. It took me some time to find images I liked from ‘pexel’ and apply them alongside the headings, subheadings and paragraphs. It’s starting to look more professional. To be extra sure, I viewed all screen sizes in the dev’s tools. The header section is fully responsive.
+
+<p align= "center">
+  <img width="1426" height="432" alt="Implemented header content" src="https://github.com/user-attachments/assets/d3b12840-9c40-462f-9799-da1050c4f343" />
+  <img width="2560" height="1440" alt="responsive-design-of-website pages" src="https://github.com/user-attachments/assets/692c219b-de2d-418b-a310-32080e027198" />
 </p>
 
 ## Accessibility
@@ -267,6 +276,12 @@ I added a logo for the navbar to replace the navbar placeholder. I was initially
 <p align="center">
  <img width="1837" height="82" alt="added-logo" src="https://github.com/user-attachments/assets/5f0e998e-cd6e-4bf2-9cad-655320297caa" />
 <img width="1183" height="51" alt="resized-logo" src="https://github.com/user-attachments/assets/b4f6c176-9ab9-4b4a-8a19-8a54817fff0c" />
+</p>
+
+I checked the contrast difference between the two main colours on my website. When I decided on a colour scheme, there were a few things I had to keep in mind. The colours should complement one another and there needed to be a good contrast so that the user had an easier time with reading text on the navbar and the background. I was pleased to see that the contrast was high.
+
+<p align= "center">
+ <img width="812" height="524" alt="good contrast" src="https://github.com/user-attachments/assets/3962a26c-ee82-49ac-a21d-35f2fd9651f2" />
 </p>
 
 
