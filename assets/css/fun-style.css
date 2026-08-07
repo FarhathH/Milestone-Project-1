@@ -29,6 +29,23 @@ h3{
     text-transform: uppercase;
 }
 
+/*Card headings style*/
+#main-attractions h1,
+h2,
+h3{
+    text-transform: none;
+}
+
+/*Font style for subheadings of cards*/
+#main-attractions .lead{
+    font-family: var(--primary-font);
+}
+
+#main-attraction .card-body{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .sub-heading-color{
     color: var(--highlight-color);
 }
@@ -53,6 +70,9 @@ h3{
 #header .lead{
     font-family: var(--primary-font);
 }
+
+/*card styling*/
+
 
 /*Checking layout and borders*/
 /*
