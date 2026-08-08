@@ -44,7 +44,7 @@ h3{
 }
 #main-attractions .card{
    border-radius: 0;
-   border: none;
+   /*border: none;*/
    
 }
 #main-attractions img{
@@ -114,8 +114,10 @@ h3{
         
     }
 
+
+
     #main-attractions .card-body{
-        max-width: 500px;
+        max-width: auto;
         margin: auto;
         display: block;
     }
