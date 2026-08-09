@@ -51,6 +51,15 @@ h3{
     border-radius: 0%;
 }
 
+#main-attractions  .img-fluid{
+    
+}
+
+#main-attractions .card-body{
+    
+}
+
+
 /*Subheadings colour font*/
 .sub-heading-color{
     color: var(--highlight-color);
@@ -97,34 +106,7 @@ h3{
 }
 */  
 
-
-/*For the responive design of the cards*/
-@media screen and (min-width:500px) {
-    #main-attractions .img-fluid{
-        margin: auto;
-        display: block;
-       
-    }
-}
-
-@media screen and (min-width:744px) {
-    #main-attractions .img-fluid{
-        margin: auto;
-        display: block;
-        
-    }
-
-
-
-    #main-attractions .card-body{
-        max-width: auto;
-        margin: auto;
-        display: block;
-    }
-}
-
-@media screen and (min-width:1206px) {
-    #main-attractions .img-fluid{
-        margin-left: 0;
-    }
+/*Media queries for the cards*/
+@media screen and (min-width:) {
+    
 }
