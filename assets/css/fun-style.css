@@ -51,6 +51,11 @@ h3{
     border-radius: 0%;
 }
 
+#main-attractions  .img-fluid{
+    margin: auto;
+    display: block;
+}
+
 /*Subheadings colour font*/
 .sub-heading-color{
     color: var(--highlight-color);
