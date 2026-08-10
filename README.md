@@ -262,6 +262,25 @@ Once that was done, I managed to add some header content for my webpages. It too
   <img width="2560" height="1440" alt="responsive-design-of-website pages" src="https://github.com/user-attachments/assets/692c219b-de2d-418b-a310-32080e027198" />
 </p>
 
+I understood that I needed the to get the main content ready. So I started off with the first card to edit the first card and made sure to double check through the dev tools.
+
+<p align="center">
+ <img width="540" height="419" alt="1 edited the first card through dev tools" src="https://github.com/user-attachments/assets/63c254ad-e6fc-42d0-a92b-af70331754d2" />
+</p>
+
+When I checked the dev tools, I realised that the widths of both the card text and the image wasn't aligned.
+
+<p align="center">
+ <img width="1383" height="1159" alt="3 added mx-auto and d-block classes to" src="https://github.com/user-attachments/assets/97803ea2-624b-4df9-9449-bc33dc1523e1" />
+ <img width="2329" height="1206" alt="1 5" src="https://github.com/user-attachments/assets/1e3c3d33-dc40-4b7f-8b9e-1f6cd3c16a50" />
+</p>
+
+Once I was pleased, I created the other cards and applied the bootstrap and css that I used for the first card.
+
+<p align="center">
+ <img width="2072" height="961" alt="gave up on css and edited the bootstrap settings in the html file" src="https://github.com/user-attachments/assets/f3b832ec-1121-4bdd-8625-734a34985740" />
+</p>
+
 ## Accessibility
 
 I had finally edited the navbar after checking that all the links worked. I added a dark background colour to my colour scheme at the time by removing the ‘bg-body-tertiary’ class from the nav tag so that it didn’t override the navbar id that was applied. As great as it was to change the background, the font is now difficult to read in the navbar unless you squint your eyes. That wasn’t ideal. So I went back to the navbar in my file and searched the bootstrap documentation to apply the ‘data-bs-theme="dark"’ to the nav tag. This enabled all of the content inside to be lighter and have a sharper contrast to the background colour. It made it easier for users to read the navbar. 
