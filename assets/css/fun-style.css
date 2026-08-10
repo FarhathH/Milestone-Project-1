@@ -51,15 +51,6 @@ h3{
     border-radius: 0%;
 }
 
-#main-attractions  .img-fluid{
-    
-}
-
-#main-attractions .card-body{
-    
-}
-
-
 /*Subheadings colour font*/
 .sub-heading-color{
     color: var(--highlight-color);
@@ -107,6 +98,4 @@ h3{
 */  
 
 /*Media queries for the cards*/
-@media screen and (min-width:) {
-    
-}
+
