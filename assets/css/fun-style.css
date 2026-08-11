@@ -51,10 +51,7 @@ h3{
     border-radius: 0%;
 }
 
-#main-attractions  .img-fluid{
-    margin: auto;
-    display: block;
-}
+
 
 /*Subheadings colour font*/
 .sub-heading-color{
@@ -103,4 +100,41 @@ h3{
 */  
 
 /*Media queries for the cards*/
+@media screen and (min-width:522px) {
+    #main-attractions .img-fluid{
+        margin: auto;
+        display: block;
+    }
+}
+@media screen and (min-width:768px) {
+    #main-attractions .img-fluid{
+        margin: none;
+        
+    }
+}
+@media screen and (min-width:992px) {
+    #main-attractions .card-body{
+        min-height: 226px;
+    }  
+    #main-attractions .img-fluid{
+        margin: auto;
+        display: block;
+    } 
+}
 
+@media screen and (min-width:1200px) {
+    #main-attractions .img-fluid{
+        margin: 0;
+        
+    }
+    #main-attractions .first{
+        order: 0;
+    }
+    #main-attractions .second{
+        order: 1;
+    }
+    
+    #main-attractions .second-image{
+        margin-left:auto;
+    }
+}
