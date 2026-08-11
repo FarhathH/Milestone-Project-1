@@ -44,7 +44,7 @@ h3{
 }
 #main-attractions .card{
    border-radius: 0;
-   /*border: none;*/
+   border: none;
    
 }
 #main-attractions img{
@@ -137,4 +137,11 @@ h3{
     #main-attractions .second-image{
         margin-left:auto;
     }
+
+    #main-attractions .card{
+        border-radius: 0;
+        border-bottom: 1px solid #162e2c;
+   
+    }
+   
 }
