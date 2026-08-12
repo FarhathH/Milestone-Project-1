@@ -255,7 +255,7 @@ I started to put together the header content and placed a bootstrap carousel. Th
   https://github.com/user-attachments/assets/5f3ebc70-6ad2-44fb-b0b6-8b9eb914f36a
 </p>
 
-Once that was done, I managed to add some header content for my webpages. It took me some time to find images I liked from ‘pexel’ and apply them alongside the headings, subheadings and paragraphs. It’s starting to look more professional. To be extra sure, I viewed all screen sizes in the dev’s tools. The header section is fully responsive.
+Once that was done, I managed to add some header content for my webpages. It took me some time to find images I liked from ‘pexel’ and apply them alongside the headings, subheadings and paragraphs. It started to look more professional. To be extra sure, I viewed all screen sizes in the dev’s tools. The header section is fully responsive.
 
 <p align= "center">
   <img width="1426" height="432" alt="Implemented header content" src="https://github.com/user-attachments/assets/d3b12840-9c40-462f-9799-da1050c4f343" />
