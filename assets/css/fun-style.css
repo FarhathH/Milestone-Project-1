@@ -100,6 +100,8 @@ h3{
 */  
 
 /*Media queries for the cards*/
+
+/*For phone/tablet screen sizes*/
 @media screen and (min-width:522px) {
     #main-attractions .img-fluid{
         margin: auto;
@@ -112,6 +114,8 @@ h3{
         
     }
 }
+
+/*For larger screens*/
 @media screen and (min-width:992px) {
     #main-attractions .card-body{
         min-height: 226px;
