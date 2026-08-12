@@ -262,20 +262,21 @@ Once that was done, I managed to add some header content for my webpages. It too
   <img width="2560" height="1440" alt="responsive-design-of-website pages" src="https://github.com/user-attachments/assets/692c219b-de2d-418b-a310-32080e027198" />
 </p>
 
-I understood that I needed the to get the main content ready. So I started off with the first card to edit the first card and made sure to double check through the dev tools.
+I understood that I needed to get the main content ready. So I started off with the first card to edit and made sure to double check through the dev tools what type of changes needed to be done to edit the template that I grabbed from the bootstrap 5.3 documentation. I made sure to delete the ‘max-width:540px’ from the tag to allow more breathing room for the image as the width for all the card images is around 500px. I edited the col classes for the ‘img’ and ‘card’ sections so that the card will have an equal amount of space. I also applied ‘mt-3’ to add some margin at the top of the card.
 
 <p align="center">
  <img width="540" height="419" alt="1 edited the first card through dev tools" src="https://github.com/user-attachments/assets/63c254ad-e6fc-42d0-a92b-af70331754d2" />
 </p>
 
-When I checked the dev tools, I realised that the widths of both the card text and the image wasn't aligned.
+When I checked the dev tools, I realised that the widths of both the card text and the image weren't aligned. So I went back to the dev tools once again and would scan the elements to find the area that I needed to edit. I scanned over the img element and tested out the margin change by applying in the opening tag ‘mx-auto’ and ‘d-block’ I managed to center my image for phone and tablet screen sizes. I used a media query in css to apply the ‘margin:auto;’ and ‘display:block’ for the img-fluid class. It achieved the same effect.
 
 <p align="center">
- <img width="1383" height="1159" alt="3 added mx-auto and d-block classes to" src="https://github.com/user-attachments/assets/97803ea2-624b-4df9-9449-bc33dc1523e1" />
- <img width="2329" height="1206" alt="1 5" src="https://github.com/user-attachments/assets/1e3c3d33-dc40-4b7f-8b9e-1f6cd3c16a50" />
+ <img width="319" height="154.5" alt="The width" src="https://github.com/user-attachments/assets/8bc064eb-6211-443e-a7d1-707d64acbb37" />
+ <img width="345.75" height="289.75" alt="3 added mx-auto and d-block classes to" src="https://github.com/user-attachments/assets/97803ea2-624b-4df9-9449-bc33dc1523e1" />
+ <img width="582.25" height="302.5" alt="1 5" src="https://github.com/user-attachments/assets/1e3c3d33-dc40-4b7f-8b9e-1f6cd3c16a50" />
 </p>
 
-Once I was pleased, I created the other cards and applied the bootstrap and css that I used for the first card.
+Once I was pleased, I created the other cards and applied the bootstrap and css that I used for the first card. At this stage the responsive layout for the cards seemed okay at the time. Along the way I managed to get into a pickle and delete some css so I had to start from scratch. After inserting the official info for each card, it had changed the layout for each screen size completely.
 
 <p align="center">
  <img width="2072" height="961" alt="gave up on css and edited the bootstrap settings in the html file" src="https://github.com/user-attachments/assets/f3b832ec-1121-4bdd-8625-734a34985740" />
