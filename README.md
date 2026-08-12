@@ -276,11 +276,20 @@ When I checked the dev tools, I realised that the widths of both the card text a
  <img width="582.25" height="302.5" alt="1 5" src="https://github.com/user-attachments/assets/1e3c3d33-dc40-4b7f-8b9e-1f6cd3c16a50" />
 </p>
 
-Once I was pleased, I created the other cards and applied the bootstrap and css that I used for the first card. At this stage the responsive layout for the cards seemed okay at the time. Along the way I managed to get into a pickle and delete some css so I had to start from scratch. After inserting the official info for each card, it had changed the layout for each screen size completely.
+Once I was pleased, I created the other cards and applied the bootstrap and css that I used for the first card. At this stage the responsive layout for the cards seemed okay at the time. Along the way I managed to get into a pickle and delete some css so I had to start from scratch. After inserting the official info for each card, it had changed the layout for each screen size completely. I first tried to use a media query to edit the min-height. But this was hopeless. I realised that the text inside for the ‘escape room mystery’ was really high, so I decreased the word count in there and added the ‘min-height’ for the media query. This trial and error process did get the results that I was looking for.
 
 <p align="center">
- <img width="2072" height="961" alt="gave up on css and edited the bootstrap settings in the html file" src="https://github.com/user-attachments/assets/f3b832ec-1121-4bdd-8625-734a34985740" />
+ <img width="259" height="120.25" alt="gave up on css and edited the bootstrap settings in the html file" src="https://github.com/user-attachments/assets/f3b832ec-1121-4bdd-8625-734a34985740" />
+ <img width="280.125" height="143.5" alt="And card info and need to fix card boody height differences" src="https://github.com/user-attachments/assets/f4b2b845-a653-4fea-af4d-ce98a6fd2ce8" />
+ <img width="1240.5" height="630" alt="Finally managed to get the layouts" src="https://github.com/user-attachments/assets/42a2190d-2bd2-4eef-a89c-133154257188" />
 </p>
+
+For the larger screens, I thought that having all the cards with the images and text in the same order would be boring. I used the media query and applied classes named ‘first’, ‘second’ and ‘second-image’. With this, I switched the order of the image and card text of two cards with the ‘order’ property. After checking the responsiveness in the dev tools, I finally managed to get the images and descriptions to be responsive in the way that I liked. I noticed that the laptop/desktop screen layout seemed off without the borders. I decided to add the bottom borders for each card so that the text and images seem more aligned.
+
+<p align="center">
+ <img width="1256" height="928" alt="Added a bottom border" src="https://github.com/user-attachments/assets/a6d5fccd-9f0d-480b-9316-2b8cb313a2d3" />
+</p>
+
 
 ## Accessibility
 
