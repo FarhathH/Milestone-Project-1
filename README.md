@@ -188,7 +188,28 @@ When I looked through the file and changed the h1 tag to a p tag, that still did
  <img width="996" height="450" alt="code-comparison" src="https://github.com/user-attachments/assets/0919103c-1c63-4712-8024-4481e87efc78" />
 </p>
 
+I have gotten to the point where I needed to test the ‘index’, ‘ticket-fare’, ‘booking enquiry’ and the contact pages. I put the html and css code through the HTML/CSS validator. Although both the ‘index’ and the ‘booking enquiry’ pages had no errors, the ‘contact’ and ‘ticket-fare’ pages had a few along with the CSS.
 
+* 	Main errors:
+	*	The ‘contact’ page on line 106 claimed “No p element in scope, but a p end tag seen”. I had initially placed divs between the p open and end tag. This caused it to produce an error as I had not written anything in the p tag, but in the div tags.
+	*	For the ‘ticket-fare’ page, on line 110 said “Row 3 of a row group established by a ‘tbody’ element had no beginning cells on it.”. When I manually made the table, I left one of the rows blank, thinking that it would be fine.
+	*	The CSS stylesheet error mentioned on line 113 “#main-attractions .img-fluid Value error: margin ‘none’ is not a value”. The funny thing about that is that the code still ran fine even in the deployed version of the website.
+
+<p align="center">
+ <img width="1211" height="589" alt="contactpage" src="https://github.com/user-attachments/assets/7705e57e-f648-49d9-8733-f742af53d793" />
+ <img width="1228" height="667" alt="ticketpage" src="https://github.com/user-attachments/assets/8ae959e4-b2ef-436e-97d8-b5656d2e160e" />
+ <img width="1241" height="536" alt="CSS error" src="https://github.com/user-attachments/assets/13cad981-107e-4099-870b-ac012de7d8c9" />
+</p>
+
+The quick solutions I did for each to fix the issues:
+*	Removed the p tags, deleted divs and put the placeholder info within a single div with br tags between.
+*	Added td tags (cells) in the row (tr tags).
+*	Changed the margin value from ‘none’ to ‘0’.
+
+
+<p align="center">
+ 
+</p>
 
 ## Responsive Design
 I started coding the sections just to get the rough template for my homepage:
