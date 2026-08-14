@@ -21,19 +21,18 @@ body{
     font-size: var(--primary-font-size);
 }
 
-h1,
-h2,
-h3{
+h1{
     font-family: var(--secondary-font);
     color:var(--primary-color);
     text-transform: uppercase;
 }
 
 /*Card headings style*/
-#main-attractions h1,
+
 h2,
 h3{
     text-transform: none;
+    font-family: var(--secondary-font);
 }
 
 
@@ -79,7 +78,13 @@ h3{
     font-family: var(--primary-font);
 }
 
+#opening-times .lead{
+    font-family: var(--primary-font);
+}
 
+#opening-times .sub-heading-color{
+    color: var(--highlight-color);
+}
 
 
 /*Checking layout and borders*/
