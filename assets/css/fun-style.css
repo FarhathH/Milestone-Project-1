@@ -66,7 +66,7 @@ h3{
 
 /*styling for the navbar*/
 #navbar{
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);  
 }
 
 #navbar .logo{
@@ -80,27 +80,35 @@ h3{
 
 
 /*Footer styling*/
-#logo--footer{
+#logo-footer{
     background-color: var(--primary-color);
 }
-#logo--footer .lead{
+#logo-footer .lead{
     font-family: var(--primary-font);
 }
 
-#logo--footer .sub-heading-color{
-    color: var(--highlight-color);
+#logo-footer .sub-heading-color{
+    color: white;
 }
 
-#logo--footer .social-links{
-    font-size: 35.5px;
-    
+#logo-footer .social-links{
+    font-size: 35.5px;  
 }
-#logo--footer svg{
+#logo-footer a{
+    text-decoration: none;
+}
+#logo-footer svg{
     margin-left:12px;
+    color:var(--highlight-color-light);
 }
-#logo--footer table{
-    width:75%;
+
+#logo-footer .table{
+    width: 75%;
     margin: auto;
+}
+
+#logo-footer .table-dark *{
+    background-color: transparent;
 }
 
 
@@ -148,7 +156,7 @@ h3{
         display: block;
     } 
 }
-
+/*Desktop size and bigger*/
 @media screen and (min-width:1200px) {
     #main-attractions .img-fluid{
         margin: 0;
