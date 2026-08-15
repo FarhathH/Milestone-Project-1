@@ -80,6 +80,9 @@ h3{
 
 
 /*Footer styling*/
+#logo--footer{
+    background-color: var(--primary-color);
+}
 #logo--footer .lead{
     font-family: var(--primary-font);
 }
@@ -87,6 +90,19 @@ h3{
 #logo--footer .sub-heading-color{
     color: var(--highlight-color);
 }
+
+#logo--footer .social-links{
+    font-size: 35.5px;
+    
+}
+#logo--footer svg{
+    margin-left:12px;
+}
+#logo--footer table{
+    width:75%;
+    margin: auto;
+}
+
 
 
 /*Checking layout and borders*/
