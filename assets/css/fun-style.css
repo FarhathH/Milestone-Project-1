@@ -80,11 +80,11 @@ h3{
 
 
 /*Footer styling*/
-#opening-times .lead{
+#logo--footer .lead{
     font-family: var(--primary-font);
 }
 
-#opening-times .sub-heading-color{
+#logo--footer .sub-heading-color{
     color: var(--highlight-color);
 }
 
