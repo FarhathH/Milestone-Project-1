@@ -91,17 +91,6 @@ h3{
     color: white;
 }
 
-#logo-footer .social-links{
-    font-size: 50px;  
-}
-#logo-footer a{
-    text-decoration: none;
-}
-#logo-footer svg{
-    margin-left:12px;
-    color:var(--highlight-color-light);
-}
-
 #logo-footer .table{
     width: 75%;
     margin: auto;
@@ -111,7 +100,24 @@ h3{
     background-color: transparent;
 }
 
-
+#logo-footer .social-links{
+    font-size: 50px;  
+}
+#logo-footer .social-links a{
+    text-decoration: none;
+}
+#logo-footer .social-links svg{
+    margin-left:12px;
+    color:var(--highlight-color-light);
+}
+/*To indicate that the user can click on the buttons*/
+#logo-footer .social-links svg:hover{
+    color: white;
+    font-size: 60px;
+    transition: color 0.3s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+    
+}
 
 /*Checking layout and borders*/
 /*
@@ -144,6 +150,7 @@ h3{
         margin: 0;
         
     }
+
 }
 
 /*For larger screens*/
