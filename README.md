@@ -206,9 +206,10 @@ The quick solutions I did for each to fix the issues:
 *	Added td tags (cells) in the row (tr tags).
 *	Changed the margin value from ‘none’ to ‘0’.
 
+When I created the footer section, I had to test the code again through HTML/CSS validator. Everything seemed fine. The footer presented exactly the way I wanted, but there was one error within the html code. On line 198, there was no space between the attributes. It was an easy error to fix. The footer was added to the other pages afterwards.
 
 <p align="center">
- 
+ <img width="1182" height="145" alt="tested HTML after  footer editing" src="https://github.com/user-attachments/assets/f8175f1d-04e2-45ed-af9f-f4c045b98aee" />
 </p>
 
 ## Responsive Design
@@ -311,6 +312,11 @@ For the larger screens, I thought that having all the cards with the images and 
  <img width="1256" height="928" alt="Added a bottom border" src="https://github.com/user-attachments/assets/a6d5fccd-9f0d-480b-9316-2b8cb313a2d3" />
 </p>
 
+Once I had created the footer, I just wanted to check how it appeared in all the screen sizes. To make the responsiveness more seamless, I decided to align the logo, title, table and the social-link icons within the center.
+
+<p align = "center">
+	<img width="2551" height="1371" alt="checked the responsiveness of the footer" src="https://github.com/user-attachments/assets/f01bf948-9844-4046-8488-3412d07976af" />
+</p>
 
 ## Accessibility
 
@@ -334,6 +340,23 @@ I checked the contrast difference between the two main colours on my website. Wh
  <img width="812" height="524" alt="good contrast" src="https://github.com/user-attachments/assets/3962a26c-ee82-49ac-a21d-35f2fd9651f2" />
 </p>
 
+I had started with placing all the footer content making sure to check how it appeared. I placed the logo at the beginning. It had a good contrast with the background. The table itself stuck out like a sore thumb and I wanted it to blend in. I also wanted to be sure that the choice of colours for the font would stick out from the background.
 
+<p align="center">
+	<img width="2291" height="961" alt="constructed the footer scanning the colour scheme" src="https://github.com/user-attachments/assets/4bfbfb7e-7f9e-45d0-827c-0fb1bea9a320" />
+</p>
 
+To be sure that the colour scheme worked fine, I checked the contrast difference between the font colour (#408A71) and the background (#162E2C) the first time around. The score ratio was around 3.48:1. I realised that meant that the font colour was too dark for a proper contrast. So I tried to compare the lighter highlight color (#B0E4CC) for the font and the background (#162E2C) and the contrast ratio was 10.31:1. I assigned this colour choice for the social-link icons. When comparing the background (#162E2C) colour and #FFFFFF. The contrast ratio was 14.37:1. The best contrast for the font so I picked that for the font colour.
+
+<p align="center">
+	<img width="195.25" height="223.75" alt="low score when checking colour contrast between the background colour and the highlight colour" src="https://github.com/user-attachments/assets/08f8f623-a17c-452c-8d39-a0de2758225b" />
+	<img width="190" height="225.25" alt="the light highlight colour was a better contrast and will be good for the social-link icons" src="https://github.com/user-attachments/assets/29e853bd-4653-4548-ab80-108840d7b281" />
+	<img width="186" height="225.25" alt="white colour had the best contrast and will be the font colour for the footer" src="https://github.com/user-attachments/assets/cbf98a28-029e-4dde-88e8-f581927fc161" />
+</p>
+
+Once those changes were done. I wanted to apply that to the table as well. Since the table style was caused by the table class,  I decided to look into the bootstrap docs and find the dark table theme to have the white font and border lines as well. I had to override the default table class with the wildcard (*) operator to do so.
+
+<p align="center">
+	<img width="640" height="360" alt="Applied the better colour scheme" src="https://github.com/user-attachments/assets/09a4802e-4366-4e03-b99a-08ecadee5c19" />
+</p>
 
