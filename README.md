@@ -17,7 +17,7 @@ My Tutor had given us the clear task of creating a website which can either have
  <img width="335.5" height="386" alt="MP1 mindmap" src="https://github.com/user-attachments/assets/e22ba0b7-3485-419f-aae6-48934f10e484" />
 </p>
 
-I believed that trying to jot down my ideas in a mind map could help me analyse what sort of content was needed and the type of audience it may appeal to. At this stage, I still struggled to stick to a concept for my webpage. At this point, I went on to visit existing websites to help me stick to a concept that I was satisfied with. With most of the ideas I had written down I had trouble establishing the target audience. With most of these ideas, I can understand the general audience, but none of these ideas would be very unique. At this point, I created different moodboards to trigger some inspiration for my webpage. I explored a few themes like Horror, Cuteness, Mystery etc. This did eventually inspire me to come up with a concept where the user can gather information and book tickets to enjoy a funhouse experience with their families/kids. 
+I believed that trying to jot down my ideas in a mind map could help me analyse what sort of content was needed and the type of audience it may appeal to. At this stage, I still struggled to stick to a concept for my webpage. At this point, I went on to visit existing websites to help me stick to a concept that I was satisfied with. With most of the ideas I had written down I had trouble establishing the target audience. With most of these ideas, I can understand the general audience, but none of these ideas would be very unique. At this point, I created different moodboards to trigger some inspiration for my webpage. I explored a few themes like Horror, Cuteness, Mystery etc. This did eventually inspire me to come up with a concept where the user can gather information and book tickets to enjoy a fun house experience with their families/kids. 
 Thanks to the different UXD planes. I was able to break down a mind map.
 
 <p align = "center">
@@ -67,7 +67,7 @@ When I made the priority list for my table, I tried to think about problems that
 
  ## Project Planning
 
-I took a break to focus on other tasks which helped me to reflect on the importance of my website having the bare minimum to be functional and accessible. I had to think about the main business goals and the needs of the user who will be accessing my website. I’m well aware that people have frequently gone to fun houses at fun fairs. My business would need to stand out. I realised that a good USP (unique selling point) would be a fictional funhouse that is the size of a mansion for people to explore. It is located on the outskirts of Bath, UK. I believed that this type of fun house could gain more attention.
+I took a break to focus on other tasks which helped me to reflect on the importance of my website having the bare minimum to be functional and accessible. I had to think about the main business goals and the needs of the user who will be accessing my website. I’m well aware that people have frequently gone to fun houses at fun fairs. My business would need to stand out. I realised that a good USP (unique selling point) would be a fictional fun house that is the size of a mansion for people to explore. It is located on the outskirts of Bath, UK. I believed that this type of fun house could gain more attention.
 
 Primary business goal: 
 * Increase public foot traffic and popularity for fun houses.
@@ -318,6 +318,13 @@ Once I had created the footer, I just wanted to check how it appeared in all the
 	<img width="2551" height="1371" alt="checked the responsiveness of the footer" src="https://github.com/user-attachments/assets/f01bf948-9844-4046-8488-3412d07976af" />
 </p>
 
+For the contact page, I wanted to place a map alongside the information for the address, phone number and email. I removed the categories with the colons e.g. address, phone number and email. It seemed like it was extra text that wasn’t needed. I used icons from ‘Font awesome’ for icons to represent what the information is for. I also aligned the text to be centered and for the embedded map to have a fixed width of 90%. This helped the layout function on all the screen sizes.
+
+<p align="center">
+	<img width="234.25" height="171.5" alt="editing width of embedded map for responsiveness" src="https://github.com/user-attachments/assets/1e1e7f21-5104-4dda-ad02-45778e971753" />
+	<img width="306" height="164.125" alt="contact page screen sizes" src="https://github.com/user-attachments/assets/30551e6b-7f53-4b79-b28a-b2b027872e60" />
+</p>
+
 ## Accessibility
 
 I had finally edited the navbar after checking that all the links worked. I added a dark background colour to my colour scheme at the time by removing the ‘bg-body-tertiary’ class from the nav tag so that it didn’t override the navbar id that was applied. As great as it was to change the background, the font is now difficult to read in the navbar unless you squint your eyes. That wasn’t ideal. So I went back to the navbar in my file and searched the bootstrap documentation to apply the ‘data-bs-theme="dark"’ to the nav tag. This enabled all of the content inside to be lighter and have a sharper contrast to the background colour. It made it easier for users to read the navbar. 
@@ -358,5 +365,11 @@ Once those changes were done. I wanted to apply that to the table as well. Since
 
 <p align="center">
 	<img width="640" height="360" alt="Applied the better colour scheme" src="https://github.com/user-attachments/assets/09a4802e-4366-4e03-b99a-08ecadee5c19" />
+</p>
+
+I looked at the footer and didn’t like how tiny the social-link icons were when viewing the page from the live-server. I used some CSS to edit the font-size and the hover effect. I have written the aria-labels for the user if the social-link icons fail to pop up. I tested it by reloading the browser window and checking the differences in size and hovering over them with the mouse and checking if the icons turn white and briefly increase in size until the mouse is no longer hovering. Everything worked including the hyperlinks for the social-link icons.
+
+<p align="center">
+	<img width="640" height="360" alt="Applied the hover effect" src="https://github.com/user-attachments/assets/56e9a270-9203-49cb-b035-8910f9fd6e49" />
 </p>
 
