@@ -50,7 +50,17 @@ h3{
     border-radius: 0%;
 }
 
+#booking-form .square{
+    width:15%;
+    margin-top: 0;
+    margin-left:0;
+    
+}
 
+/*styling for success page*/
+#success .lead{
+    font-family: var(--primary-font);
+}
 
 /*Subheadings colour font*/
 .sub-heading-color{
@@ -120,7 +130,7 @@ h3{
 }
 
 /*Checking layout and borders*/
-
+/*
 .container{
     border: 2px solid black;
 }
@@ -134,7 +144,7 @@ h3{
     background-color: lightgrey;
     border: 2px solid white;
 }
- 
+ */
 
 /*Media queries for the cards*/
 
