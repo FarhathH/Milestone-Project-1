@@ -41,7 +41,7 @@
                             <a class="nav-link" href="ticket-fare.html">Prices</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="booking-enquiry.html">Booking a Ticket</a>
+                            <a class="nav-link active" aria-current="page" href="booking-enquiry.html">Book Now</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
@@ -100,7 +100,7 @@
             <!--Form for filling in details-->
             <section id="booking-form" class="container section ">
                 <div class="row justify-content-center">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center my-4">
                         <h2>Booking enquiry Form</h2>
                     </div>
                     <form action="success.html" method="GET">
@@ -115,12 +115,13 @@
                             </div>
                             <div class="col-12 col-lg-6">
                                 <label for="phone" class="form-label">Phone</label>
-                                <input type="number" id="phone" name="phone" class="form-control" required>
+                                <input type="number" id="phone" name="phone" class="form-control" min="123456" max="12345678901" required>
                             </div>
                              <div class="col-12 col-lg-6">
                                 <label for="date-and-time" class="form-label">Pick available date</label>
                                 <input type="datetime-local" id="date-and-time" name="phone" class="form-control" required>
                             </div>
+                            <!--Section of the form for selecting quantity of tickets-->
                             <div class="col-12 mt-4 text-center">
                                 <strong>How many tickets?</strong>
                             </div>
