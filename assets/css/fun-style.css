@@ -50,9 +50,28 @@ h3{
     border-radius: 0%;
 }
 
+/*Style for input fields on tickets*/
 #booking-form .square{
    width: 25%;
-    
+   border-radius: 0%;
+   border: 2px solid var(--primary-color);
+}
+
+#booking-form .form-control{
+    border-radius: 0%;
+    border: 2px solid var(--primary-color);
+}
+
+/*button styling*/
+.custom-button-outlined{
+    border: 5px solid var(--primary-color);
+    color:var(--primary-color)
+
+}
+
+.custom-button-outlined:hover{
+    background-color: var(--primary-color);
+    color:var(--highlight-color-light);
 }
 
 /*styling for success page*/
