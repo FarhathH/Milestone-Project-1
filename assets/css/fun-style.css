@@ -187,7 +187,13 @@ h3{
         margin: 0;
         
     }
+   
+}
 
+@media screen and (max-width:766px) {
+    #booking-form .square{
+        margin: auto;
+    }
 }
 
 /*For larger screens*/
