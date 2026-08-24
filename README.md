@@ -212,6 +212,25 @@ When I created the footer section, I had to test the code again through HTML/CSS
  <img width="1182" height="145" alt="tested HTML after  footer editing" src="https://github.com/user-attachments/assets/f8175f1d-04e2-45ed-af9f-f4c045b98aee" />
 </p>
 
+I finally got down to creating the form for users to fill in their details and gain tickets. I had put it through a HTML validation check. Most of the fields (Name, Email, Phone number, Date/Time) passed the validation check. However, with the number input fields for the tickets, I expected it to notify the user that either the format written was incorrect or that a number needed to be typed in, it was completely ignored.
+
+<p align="center">
+	<img width="473" height="242" alt="Manually testing form" src="https://github.com/user-attachments/assets/052c4bb9-a575-4943-819c-1f7c7cce6c22" />
+</p>
+
+I started researching through forums on how to increase the min value as I didn’t want the user to be able to input a negative value. I managed to find some fundamental information about the number input type on the Mdn documentation website. It showed some code using the ‘min’ and ‘max’ attributes. I even edited the code on the website to test if the attributes still worked. At this point, I found the solution to the issue.
+
+<p align="center">
+	<img width="1488" height="230" alt="Researched into ways to limiting the min value" src="https://github.com/user-attachments/assets/9f776523-7f92-4c3e-81b4-f644ec266a72" />
+</p>
+
+I soon tested the ticket and message fields. Making sure it would prevent the form from being sent anytime the criteria wasn’t met. All the rest of the fields seemed to work as intended. I knew at that point that the moment I was taken to the success.html page after submitting the form. The form passed the HTML validation check.
+
+<p align="center">
+	<img width="707" height="509" alt="proof of success" src="https://github.com/user-attachments/assets/f981b018-c3ed-4553-b5ae-444be3949f79" />
+	<img width="666.5" height="295" alt="passed the validator check" src="https://github.com/user-attachments/assets/695f60e6-a02d-42ac-8583-47b5492078b9" />
+</p>
+
 ## Responsive Design
 I started coding the sections just to get the rough template for my homepage:
 * Navigation div:
