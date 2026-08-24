@@ -62,6 +62,11 @@ h3{
     border: 2px solid var(--primary-color);
 }
 
+/*Styling for the prices table*/
+#ticket-prices{
+    background-color: var(--highlight-color-light);
+}
+
 /*button styling*/
 
 .custom-button-filled{
