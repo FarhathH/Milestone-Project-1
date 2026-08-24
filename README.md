@@ -392,3 +392,11 @@ I looked at the footer and didn’t like how tiny the social-link icons were whe
 	<img width="640" height="360" alt="Applied the hover effect" src="https://github.com/user-attachments/assets/56e9a270-9203-49cb-b035-8910f9fd6e49" />
 </p>
 
+I looked into the form that I had on the ‘booking-enquiry page. The input fields originally didn’t have much contrast difference as both the background and the input fields are white. I thought that it would be harder for someone who may be colour blind to notice where the details need to be typed. So I used some custom CSS to make them easier to see and created a custom button class so that the buttons blended in with the colour scheme of the website. I used a hover effect for the button to show that it can be interacted with.
+
+<p align="center">
+	<img width="2135" height="775" alt="Screenshot 2026-08-23 000414" src="https://github.com/user-attachments/assets/28b2185e-16d5-43ef-9910-5f7356071247" />
+	<img width="142" height="71" alt="Applied hover effect too" src="https://github.com/user-attachments/assets/472b5b80-0688-4b8a-8f0f-8fb70180f1ca" />
+	<img width="120" height="69" alt="Edited button with CSS" src="https://github.com/user-attachments/assets/6b750a7b-e00a-4031-806e-e3873dfc9e89" />
+</p>
+
