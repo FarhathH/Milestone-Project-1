@@ -344,6 +344,12 @@ For the contact page, I wanted to place a map alongside the information for the 
 	<img width="306" height="164.125" alt="contact page screen sizes" src="https://github.com/user-attachments/assets/30551e6b-7f53-4b79-b28a-b2b027872e60" />
 </p>
 
+After implementing the booking form, I wanted to make it so that the input fields for the ticket quantity section were centred on a smaller screen and left-aligned on larger screens. I didn’t want to target all the input fields so I targeted a select few using a custom class that I made. I used a media query to target the max-width of 766px. This only targeted smaller screens. After I checked all the screen sizes,  I was satisfied.
+
+<p align="center">
+	<img width="957" height="535" alt="Changed reponsive design" src="https://github.com/user-attachments/assets/d204317f-0294-4de9-b9b3-fc0564c7ece5" />
+</p>
+
 ## Accessibility
 
 I had finally edited the navbar after checking that all the links worked. I added a dark background colour to my colour scheme at the time by removing the ‘bg-body-tertiary’ class from the nav tag so that it didn’t override the navbar id that was applied. As great as it was to change the background, the font is now difficult to read in the navbar unless you squint your eyes. That wasn’t ideal. So I went back to the navbar in my file and searched the bootstrap documentation to apply the ‘data-bs-theme="dark"’ to the nav tag. This enabled all of the content inside to be lighter and have a sharper contrast to the background colour. It made it easier for users to read the navbar. 
