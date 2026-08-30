@@ -19,6 +19,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: var(--primary-font-size);
+    color: var(--primary-color);
 }
 
 h1{
@@ -56,19 +57,26 @@ h3{
    border-radius: 0%;
    border: 2px solid var(--primary-color);
 }
-
 #booking-form .form-control{
     border-radius: 0%;
     border: 2px solid var(--primary-color);
 }
 
 /*Styling for the prices table*/
+/*
 #ticket-prices{
     background-color: var(--highlight-color-light);
+}*/
+
+/*Editing info for ticket-fare table*/
+#ticket-prices .extra-table-info{
+    border: 1px solid var(--primary-color);
+}
+#ticket-prices img{ /*Resized the ticket icon image for better responsiveness*/
+    width:250px;
 }
 
 /*button styling*/
-
 .custom-button-filled{
     background-color: var(--highlight-color-light);
     color:var(--primary-color);
@@ -83,7 +91,6 @@ h3{
     color:var(--primary-color)
 
 }
-
 .custom-button-outlined:hover{
     background-color: var(--primary-color);
     color:var(--highlight-color-light);
@@ -110,7 +117,6 @@ h3{
 #navbar{
     background-color: var(--primary-color);  
 }
-
 #navbar .logo{
     width: 30px;
 }
@@ -120,7 +126,6 @@ h3{
     font-family: var(--primary-font);
 }
 
-
 /*Footer styling*/
 #logo-footer{
     background-color: var(--primary-color);
@@ -128,20 +133,16 @@ h3{
 #logo-footer .lead{
     font-family: var(--primary-font);
 }
-
 #logo-footer .sub-heading-color{
     color: white;
 }
-
 #logo-footer .table{
     width: 75%;
     margin: auto;
 }
-
 #logo-footer .table-dark *{
     background-color: transparent;
 }
-
 #logo-footer .social-links{
     font-size: 50px;  
 }
@@ -152,6 +153,7 @@ h3{
     margin-left:12px;
     color:var(--highlight-color-light);
 }
+
 /*To indicate that the user can click on the buttons*/
 #logo-footer .social-links svg:hover{
     color: white;
@@ -210,6 +212,14 @@ h3{
         margin: auto;
         display: block;
     } 
+     #ticket-prices .table-edit{
+        width:75%;
+        margin: auto;
+    }
+    #ticket-prices .extra-table-info{
+        width:75%;
+        margin: auto;
+    }
 }
 /*Desktop size and bigger*/
 @media screen and (min-width:1200px) {
@@ -223,15 +233,35 @@ h3{
     #main-attractions .second{
         order: 1;
     }
-    
     #main-attractions .second-image{
         margin-left:auto;
     }
-
     #main-attractions .card{
         border-radius: 0;
         border-bottom: 1px solid #162e2c;
    
     }
+
+    #ticket-prices .table-edit{ /*Shrink the table for larger screen sizes*/
+        width:50%;
+    }
+    #ticket-prices .num-1{
+        order:0;
+    }
+    #ticket-prices .num-2{
+        order:1;
+    }
+    #ticket-prices .num-3{
+        order:2;
+    }
+     #ticket-prices .extra-table-info{
+        width:100%;
+        margin-top: 1rem;
+    }
+    #ticket-prices img{
+        width: 250px;
+        height: 250px;
+    }
+
    
 }
