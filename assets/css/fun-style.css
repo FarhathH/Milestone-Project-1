@@ -20,6 +20,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: var(--primary-font-size);
     color: var(--primary-color);
+    padding-top:59px; /*So that the navbar doesn't overlap with the body element*/
 }
 
 h1{
@@ -70,16 +71,29 @@ h3{
 
 /*Editing info for ticket-fare table*/
 #ticket-prices .extra-table-info{
-    border: 1px solid var(--primary-color);
+    border: none;
+    background-color: var(--highlight-color-light);
+    color:var(--primary-color);
+    padding-left:1rem;
+    padding-right:1rem;
 }
 #ticket-prices img{ /*Resized the ticket icon image for better responsiveness*/
     width:250px;
+}
+/*Edited the table for better contrast and design*/
+#ticket-prices .table{
+    background-color: var(--primary-color);
+}
+#ticket-prices .table-light *{
+    background-color: transparent;
+    color:white;
 }
 
 /*button styling*/
 .custom-button-filled{
     background-color: var(--highlight-color-light);
     color:var(--primary-color);
+    border-radius: 0%;
 }
 .custom-button-filled:hover{
     border: 2px solid var(--highlight-color-light);
@@ -88,8 +102,8 @@ h3{
 }
 .custom-button-outlined{
     border: 2px solid var(--primary-color);
-    color:var(--primary-color)
-
+    color:var(--primary-color);
+    border-radius: 0%;
 }
 .custom-button-outlined:hover{
     background-color: var(--primary-color);
@@ -194,9 +208,9 @@ h3{
         margin: 0;
         
     }
+    
    
 }
-
 @media screen and (max-width:766px) {
     #booking-form .square{
         margin: auto;
@@ -217,7 +231,7 @@ h3{
         margin: auto;
     }
     #ticket-prices .extra-table-info{
-        width:75%;
+        width:100%;
         margin: auto;
     }
 }
@@ -258,10 +272,5 @@ h3{
         width:100%;
         margin-top: 1rem;
     }
-    #ticket-prices img{
-        width: 250px;
-        height: 250px;
-    }
 
-   
 }
