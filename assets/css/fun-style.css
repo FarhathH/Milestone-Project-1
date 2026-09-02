@@ -61,6 +61,7 @@ h3{
     border-radius: 0%;
     width: 500px;
     height: 250px;
+    aspect-ratio: 2/1; /*Trying to fix the aspect ratio*/
 }
 
 /*Style for input fields on tickets*/
