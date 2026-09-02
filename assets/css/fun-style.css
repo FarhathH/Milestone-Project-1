@@ -58,8 +58,8 @@ h3{
    
 }
 #main-attractions img{
-    width: 452px;
-    height: 226px;
+    width: 478px;
+    height: 250px;
     object-fit: cover; /*Trying to improve loading time for images*/
     border-radius: 0%;
 }
