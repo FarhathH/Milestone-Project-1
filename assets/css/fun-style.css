@@ -11,6 +11,7 @@
     --highlight-color:#408A71;
     --highlight-color-light:#B0E4CC;
     --primary-font-size:large;
+    --title-heading-colour:#1B6267;
     
 }
 
@@ -38,6 +39,14 @@ h3{
 }
 
 
+/*Setting explicit height and width for carousel and card images*/
+#header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 
 /*Font style for subheadings of cards*/
 #main-attractions .lead{
@@ -50,6 +59,8 @@ h3{
 }
 #main-attractions img{
     border-radius: 0%;
+    width: 450px;
+    height: 220px;
 }
 
 /*Style for input fields on tickets*/
@@ -118,6 +129,11 @@ h3{
 /*Subheadings colour font*/
 .sub-heading-color{
     color: var(--highlight-color);
+}
+
+/*Heading colour for better contrast*/
+.new-sub-heading-colour{
+    color: var(--title-heading-colour);
 }
 
 /*reusable for sections all webpages*/
@@ -240,6 +256,7 @@ h3{
     #main-attractions .img-fluid{
         margin: 0;
         
+        
     }
     #main-attractions .first{
         order: 0;
@@ -255,6 +272,7 @@ h3{
         border-bottom: 1px solid #162e2c;
    
     }
+
 
     #ticket-prices .table-edit{ /*Shrink the table for larger screen sizes*/
         width:50%;
