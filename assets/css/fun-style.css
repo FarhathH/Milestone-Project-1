@@ -48,7 +48,7 @@ h3{
 
 
 
-/*Font style for subheadings of cards*/
+/*general style for subheadings and layouts of cards*/
 #main-attractions .lead{
     font-family: var(--primary-font);
 }
@@ -59,9 +59,9 @@ h3{
 }
 #main-attractions .img-fluid{
     border-radius: 0%;
-    width: 500px;
-    height: 250px;
-    aspect-ratio: 2/1; /*Trying to fix the aspect ratio*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Trying to fix the aspect ratio*/
 }
 
 /*Style for input fields on tickets*/
