@@ -57,9 +57,9 @@ h3{
    border: none;
    
 }
-#main-attractions img{
+#main-attractions .img-fluid{
     border-radius: 0%;
-    width: 336px;
+    width: 500px;
     height: 250px;
 }
 
