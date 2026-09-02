@@ -59,7 +59,7 @@ h3{
 }
 #main-attractions img{
     border-radius: 0%;
-    width: 500px;
+    width: 336px;
     height: 250px;
 }
 
@@ -148,7 +148,8 @@ h3{
     background-color: var(--primary-color);  
 }
 #navbar .logo{
-    width: 30px;
+    width: fit-content;
+    height: fit-content;
 }
 
 /*Header text*/
@@ -182,6 +183,10 @@ h3{
 #logo-footer .social-links svg{
     margin-left:12px;
     color:var(--highlight-color-light);
+}
+#logo-footer img{
+    height: fit-content;
+    width: fit-content;
 }
 
 /*To indicate that the user can click on the buttons*/
