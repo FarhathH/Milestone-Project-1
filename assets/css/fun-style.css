@@ -218,6 +218,12 @@ h3{
 /*Media queries for the cards*/
 
 /*For phone/tablet screen sizes*/
+@media screen and (min-width:356px){
+     #main-attractions .img-fluid{
+        margin: auto;
+        display: block;
+    }
+}
 @media screen and (min-width:522px) {
     #main-attractions .img-fluid{
         margin: auto;
