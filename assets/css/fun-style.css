@@ -46,7 +46,11 @@ h3{
     object-fit: cover;
 }
 
-
+/*Styling for tickets page*/
+#ticket-prices img{
+    height: auto;
+    width: 250px;
+}
 
 /*general style for subheadings and layouts of cards*/
 #main-attractions .lead{
