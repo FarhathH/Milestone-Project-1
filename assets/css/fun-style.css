@@ -94,12 +94,6 @@ h3{
     color:white;
 }
 
-/*Responsive CSS for ticket-page carousel*/
-#ticket-header img{
-  width: 936px;
-  height: auto;
-}
-
 /*button styling*/
 .custom-button-filled{
     background-color: var(--highlight-color-light);
