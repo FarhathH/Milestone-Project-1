@@ -1,7 +1,6 @@
 /*Imported font link*/
 @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Oi&display=swap');
 
-
 /*CSS variables which are globally accessible to the entire CSS file*/
 :root{
     --secondary-font: "Oi", serif;
@@ -14,7 +13,6 @@
     --title-heading-colour:#1B6267;
     
 }
-
 
 /*global style*/
 body{
@@ -36,12 +34,12 @@ h3{
     font-family: var(--secondary-font);
 }
 
-
 /*Setting explicit height and width for carousel and card images*/
 #header img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 /*general style for subheadings and layouts of cards*/
@@ -56,10 +54,10 @@ h3{
 #main-attractions img{
     width: 478px;
     height: 250px;
-    object-fit: cover; /*Trying to improve loading time for images*/
+    -o-object-fit: cover;
+       object-fit: cover; /*Trying to improve loading time for images*/
     border-radius: 0%;
 }
-
 
 /*Style for input fields on tickets*/
 #booking-form .square{
@@ -80,11 +78,15 @@ h3{
     padding-left:1rem;
     padding-right:1rem;
 }
-#ticket-prices img{ /*Resized the ticket icon image for better responsiveness*/
+
+/*Resized the ticket icon image for better responsiveness*/
+#ticket-prices img{ 
     height: 250px;
     width: 250px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
+
 /*Edited the table for better contrast and design*/
 #ticket-prices .table{
     background-color: var(--primary-color);
@@ -136,13 +138,16 @@ h3{
     margin-bottom: 2rem;
 }
 
-
 /*styling for the navbar*/
 #navbar{
     background-color: var(--primary-color);  
 }
 #navbar .logo{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
@@ -179,7 +184,11 @@ h3{
     color:var(--highlight-color-light);
 }
 #logo-footer img{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -187,7 +196,9 @@ h3{
 #logo-footer .social-links svg:hover{
     color: white;
     font-size: 60px;
+    -webkit-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
+    -webkit-transition: font-size 0.3s ease-in-out;
     transition: font-size 0.3s ease-in-out;
     
 }
@@ -247,10 +258,14 @@ h3{
         
     }
     #main-attractions .first{
-        order: 0;
+        -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+                order: 0;
     }
     #main-attractions .second{
-        order: 1;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
     }
     #main-attractions .second-image{
         margin-left:auto;
@@ -266,13 +281,19 @@ h3{
         width:50%;
     }
     #ticket-prices .num-1{
-        order:0;
+        -webkit-box-ordinal-group:1;
+            -ms-flex-order:0;
+                order:0;
     }
     #ticket-prices .num-2{
-        order:1;
+        -webkit-box-ordinal-group:2;
+            -ms-flex-order:1;
+                order:1;
     }
     #ticket-prices .num-3{
-        order:2;
+        -webkit-box-ordinal-group:3;
+            -ms-flex-order:2;
+                order:2;
     }
      #ticket-prices .extra-table-info{
         width:100%;
