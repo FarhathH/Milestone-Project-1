@@ -250,6 +250,7 @@ h3{
         margin: auto;
     }
 }
+
 /*Desktop size and bigger*/
 @media screen and (min-width:1200px) {
     #main-attractions .img-fluid{
@@ -275,7 +276,6 @@ h3{
         border-bottom: 1px solid #162e2c;
    
     }
-
 
     #ticket-prices .table-edit{ /*Shrink the table for larger screen sizes*/
         width:50%;
