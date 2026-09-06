@@ -104,7 +104,7 @@ h3{
 }
 .custom-button-filled:hover{
     border: 2px solid var(--highlight-color-light);
-    background-color: none;
+    background-color: transparent;
     color:var(--highlight-color-light);
 }
 .custom-button-outlined{
