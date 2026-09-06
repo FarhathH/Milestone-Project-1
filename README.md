@@ -350,6 +350,18 @@ After implementing the booking form, I wanted to make it so that the input field
 	<img width="957" height="535" alt="Changed reponsive design" src="https://github.com/user-attachments/assets/d204317f-0294-4de9-b9b3-fc0564c7ece5" />
 </p>
 
+For the ticket-fare page, I finally set up the table with prices and possible discounts. Contents were responsive to most of the screen sizes. I noticed that for the larger screen sizes the ‘book now’ button and the info text are a far distant apart which gives some empty space. It doesn’t look as good. For the mobile view, the headers in the top row are cramped in place. The ‘book now button’ and info text were too close together.
+
+<p align="center">
+	<img width="1282" height="682" alt="Setup table and checked reponsiveness" src="https://github.com/user-attachments/assets/c7a47be4-3988-4884-92c6-ff09a13e8743" />
+</p>
+
+I initially started off by fixing the lack of space between the text info and the button. Adding margin to both made it look a lot less cramped. When looking back and forth between the ‘lg’ and the ‘md’ screen sizes. I applied order properties (for aligning the table with the carousel for larger screen sizes) and width percentage with media queries (to fit the content nicely for tablet and smaller screen sizes). I rendered an image to accompany the extra info. Instead of the table stretching across the desktop screen the table shares half the space with the extra info and image. I decreased the width of the image and extra info so that it didn’t stretch too far across for ‘md’ size screens.
+
+<p align="center">
+	<img width="1454" height="1004" alt="Fixed up the reponsive layout (2)" src="https://github.com/user-attachments/assets/31d9847b-b492-4c11-b8cf-6e1be761c388" />
+</p>
+
 ## Accessibility
 
 I had finally edited the navbar after checking that all the links worked. I added a dark background colour to my colour scheme at the time by removing the ‘bg-body-tertiary’ class from the nav tag so that it didn’t override the navbar id that was applied. As great as it was to change the background, the font is now difficult to read in the navbar unless you squint your eyes. That wasn’t ideal. So I went back to the navbar in my file and searched the bootstrap documentation to apply the ‘data-bs-theme="dark"’ to the nav tag. This enabled all of the content inside to be lighter and have a sharper contrast to the background colour. It made it easier for users to read the navbar. 
