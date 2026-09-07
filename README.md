@@ -3,8 +3,67 @@
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
 ## Overview
+This README contains the overall development of the 'Funanza' website.
 
 
+[Link to the deployed website](https://farhathh.github.io/Milestone-Project-1/)
+<hr>
+
+ ## Project Planning
+
+I took a break to focus on other tasks which helped me to reflect on the importance of my website having the bare minimum to be functional and accessible. I had to think about the main business goals and the needs of the user who will be accessing my website. I’m well aware that people have frequently gone to fun houses at fun fairs. My business would need to stand out. I realised that a good USP (unique selling point) would be a fictional fun house that is the size of a mansion for people to explore. It is located on the outskirts of Bath, UK. I believed that this type of fun house could gain more attention.
+
+Primary business goal: 
+* Increase public foot traffic and popularity for fun houses.
+
+Supporting business goals:
+* Show off attractions and increase customer interest.
+* Provide engaging content.
+* Encourage people to visit.
+
+Client/User types:
+* People who are often busy and need to take a break to enjoy themselves:
+  * (Parent(s))Families who want to enjoy the weekend off.
+  * Students who want to experience a fun atmosphere.
+  * Young energetic kids who need to use their energy somewhere and have a wacky time.
+
+## Skeleton
+I had struggled to come up with some design for the interface of my website. I had brainstormed to look for different layouts to use by sketching some thumbnails. I wanted to quickly visualise ideas from my head. The pen and paper stage was where I had to decide on a layout design that I would be happy with. I quickly moved onto doing the rough wireframes as I didn’t want to fall behind no time. I went with the standard format for the navigation bar section and the footer sections. I put in a placeholder logo as I didn’t have a name for my website at the time.
+
+<p>
+  <img width="2016" height="950" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
+</p>
+
+I had only done a few before I decided to use these sketches as a reference for creating wireframes using ‘canva’. I had made interface designs for different screen sizes. This was used as a guideline for me to structure everything properly. I managed to finally name the website ‘Funanza’. It took me a couple of hours to make a firm decision and execute that as a lo-fi wireframe.
+
+<p>
+  <img width="1920" height="1080" alt="Funanza Website wireframes" src="https://github.com/user-attachments/assets/0f6e5673-6fca-4b5e-88f5-d85d22767ca1" />
+</p>
+
+ ## Scope
+
+ <table align = "center">
+  <tr>
+   <th>In Scope</th>
+   <th>Out of Scope</th>
+  </tr>
+  <tr>
+   <td>User friendly navigation and responsive design</td>
+   <td>Notifications</td>
+  </tr>
+  <tr>
+   <td>Engaging content (Images and font)</td>
+   <td>Third party integrations</td>
+  </tr>
+  <tr>
+   <td>User testing</td>
+   <td>Animating smoother transitions</td>
+  </tr>
+  <tr>
+   <td>Contact detail and opening times</td>
+   <td>Date and Time in current timezone</td>
+  </tr>
+ </table>
 
 ## Strategy
 
@@ -65,64 +124,11 @@ When I made the priority list for my table, I tried to think about problems that
     </tr>
  </table>
 
- ## Project Planning
-
-I took a break to focus on other tasks which helped me to reflect on the importance of my website having the bare minimum to be functional and accessible. I had to think about the main business goals and the needs of the user who will be accessing my website. I’m well aware that people have frequently gone to fun houses at fun fairs. My business would need to stand out. I realised that a good USP (unique selling point) would be a fictional fun house that is the size of a mansion for people to explore. It is located on the outskirts of Bath, UK. I believed that this type of fun house could gain more attention.
-
-Primary business goal: 
-* Increase public foot traffic and popularity for fun houses.
-
-Supporting business goals:
-* Show off attractions and increase customer interest.
-* Provide engaging content.
-* Encourage people to visit.
-
-Client/User types:
-* People who are often busy and need to take a break to enjoy themselves:
-  * (Parent(s))Families who want to enjoy the weekend off.
-  * Students who want to experience a fun atmosphere.
-  * Young energetic kids who need to use their energy somewhere and have a wacky time.
-
-## Skeleton
-I had struggled to come up with some design for the interface of my website. I had brainstormed to look for different layouts to use by sketching some thumbnails. I wanted to quickly visualise ideas from my head. The pen and paper stage was where I had to decide on a layout design that I would be happy with. I quickly moved onto doing the rough wireframes as I didn’t want to fall behind no time. I went with the standard format for the navigation bar section and the footer sections. I put in a placeholder logo as I didn’t have a name for my website at the time.
-
-<p>
-  <img width="2016" height="950" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
-</p>
-
-I had only done a few before I decided to use these sketches as a reference for creating wireframes using ‘canva’. I had made interface designs for different screen sizes. This was used as a guideline for me to structure everything properly. I managed to finally name the website ‘Funanza’. It took me a couple of hours to make a firm decision and execute that as a lo-fi wireframe.
-
-<p>
-  <img width="1920" height="1080" alt="Funanza Website wireframes" src="https://github.com/user-attachments/assets/0f6e5673-6fca-4b5e-88f5-d85d22767ca1" />
-</p>
 
 
 
 
- ## Scope
 
- <table align = "center">
-  <tr>
-   <th>In Scope</th>
-   <th>Out of Scope</th>
-  </tr>
-  <tr>
-   <td>User friendly navigation and responsive design</td>
-   <td>Notifications</td>
-  </tr>
-  <tr>
-   <td>Engaging content (Images and font)</td>
-   <td>Third party integrations</td>
-  </tr>
-  <tr>
-   <td>User testing</td>
-   <td>Animating smoother transitions</td>
-  </tr>
-  <tr>
-   <td>Contact detail and opening times</td>
-   <td>Date and Time in current timezone</td>
-  </tr>
- </table>
 
  
 ## Testing
