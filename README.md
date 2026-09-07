@@ -231,6 +231,106 @@ I soon tested the ticket and message fields. Making sure it would prevent the fo
 	<img width="666.5" height="295" alt="passed the validator check" src="https://github.com/user-attachments/assets/695f60e6-a02d-42ac-8583-47b5492078b9" />
 </p>
 
+When I managed to implement all the core features of my website. I wanted to make sure that the website functioned as it should through interaction. I performed a manual test and managed it find that:
+*	The navbar functioned fine. Logo and nav items took me to the corresponding pages.
+*	The ‘book now’ buttons navigated me towards the form.
+*	All input fields built-in HTML validation checks triggered as intended e.g. letting me know when the incorrect information or lack of info was present.
+*	All the social-link icons hyperlinks go to the corresponding pages.
+*	The success page popped up when the form was filled in and submitted.
+*	The website is responsive to different screen sizes.
+
+<p align="center">
+	<img width="987" height="1075" alt="Manually testing deployed website" src="https://github.com/user-attachments/assets/3562729e-14b7-47c7-9200-12be5c739c9e" />
+</p>
+
+There were problems that arose from testing such as:
+*	The navbar stays at the top of the page and the user would have to scroll back up. I fixed this by applying the ‘fixed-top’ class to the navbars of each page and also added some padding to the top of the body element. This allowed the navbar to stay at the top of the screen visible no matter how far the user scrolled. For the mobile view, I borrowed some of this javaScript code to automatically close the navbar menu when selecting the nav item that takes me to opening times:
+
+```
+<script>
+            document
+                .querySelectorAll(".navbar-collapse .nav-link")
+                .forEach((link) => {
+                    link.addEventListener("click", function (e) {
+                        let section = document.querySelector(e.target.getAttribute("href"));
+                        if (section) {
+                            e.preventDefault(); // Prevent default anchor click behavior
+                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                            document
+                                .querySelector(".navbar-collapse")
+                                .classList.remove("show"); // Collapse navbar
+                        }
+                    });
+                });
+        </script>
+```
+
+*	The input labels ‘Phone’ and ‘Pick available date’ were too close to the input fields for ‘Name’ and ‘Email’. This was a quick and easy fix by applying the ‘mt-4’ class just to give them space.
+*	For the ticket prices page, on a larger screen size where it is split into two columns. The image is accompanied by the extra info for the discounts which looks off. First off, I decided to move the extra-info in the same div as the table. I even removed the border and added a #B0E4CC background colour and a #162E2C font colour with bolder font-weight to make it stand out more. I edited the table to have the same colour scheme to make it easier to read and blend in with the rest of the webpage.
+*	The ‘price’ title for the ticket prices table is of the same font size and colour as the rest of the prices table. This doesn’t stand out too well. So I removed it from the table element and placed it above in the code. I used the same font (‘Oi’, serif from Google Fonts) as the title of the webpage. The title completely stood out from the table which was more pleasant to the eyes. 
+
+<p align="center">
+	<img width="1853" height="1054" alt="manual test corrections" src="https://github.com/user-attachments/assets/9f0c8e0b-58f3-457b-b437-64dccdbdcfe5" />
+</p>
+
+I wasn’t done just yet. I needed to check for other flaws that I may have missed out on. I started off with generating a lighthouse report on the index.html page. The performance score was below 80 so I had to take a look. The issues were mainly down to built-in toolkits from google fonts and bootstrap. The best practice score was 100 so I didn’t bother with that. The accessibility score was 95 at the time and the performance score ranged from 72. I immediately took a look at the issues that the report mentioned which impacted the scores. It mentioned that the contrast between the subheadings and the background were weak. The contrast worked fine for bigger fonts, but was weaker for smaller fonts. For performance, that was due to a couple of things, mainly unused CSS from bootstrap.
+
+<p align="center">
+	<img width="1590" height="1010" alt="new index html lighthouse report" src="https://github.com/user-attachments/assets/62138154-6133-4313-9a44-475f8ed81c52" />
+</p>
+
+I started off with comparing the rough colour ratio I had initially used for my sub headings. The ratio was 4.12:1. So I selected a colour hex code #1B6267 which had a better contrast over all and still fit the colour scheme. With help of Google AI mode and the Stack overflow forums, I set the height and width properties to 100% with the object-fit property to the cover setting. It is to prevent the images from being warped. I even used a media query to set the margin to center the images for smaller screen sizes.
+
+<p align="center">
+	<img width="1284" height="1023" alt="first attempt at corrections" src="https://github.com/user-attachments/assets/367be3fd-b97e-40ea-8328-de58b0ddde80" />
+</p>
+
+While I managed to fix the accessibility and carousel issues, there was a problem with the card images. Their original ratio (500x250) didn’t align with the displayed ratio. So the first thing I did was change the displayed ratio back to 500x250 in pixels. Committed the repository and double checked again. The displayed ratio was closer to 450x250 than the original ratio 500x250. I took a look and that didn’t get rid of the diagnosis. I decided to set the height and width properties to 100% rather than a specific measurement and that managed to fix the issue.
+
+<p align="center">
+	<img width="1617" height="846" alt="Fixed the aspect ratio issue" src="https://github.com/user-attachments/assets/889aecd9-23fa-4350-9bf8-27d1cc8451d1" />
+</p>
+
+Performance had a score of 72 at the time. I wanted to improve the issues by changing the layout. There was a lot of editing and tweaking that I had to do. This included converting all of the existing images in the webpage (jpg and png) into webp. Setting explicit height and width for all the images with custom CSS and scaling down the carousel images. I also scaled down the remaining card images from 478x250 to 452x266. The performance fluctuated due to the implementation of Bootstrap classes being unused as it was highlighted in the diagnostics. There wasn’t much to do about that.
+
+<p align="center">
+	<img width="1272" height="706" alt="index html lighthouse report has a better performance score, but it fluctuates" src="https://github.com/user-attachments/assets/b08ea6da-4e34-4c8b-acbf-872f4b5b08cf" />
+</p>
+
+I checked the ticket-fare.html page next. The performance of 66 had me concerned, but the accessibility score of 95 was reassuring and the only problem which caused that issue was the fact that I didn’t implement the proper hierarchy structure that the headings tags are supposed to be used for. The main title had a h1 tag, but the sub heading  had a h3 tag. I gave the subheading a h2 tag so fix it. With the performance score, scaling down images and changing to webp format instead made a big difference. I left the issues caused by Bootstrap toolkits alone as they are pre-built libraries.
+
+<p align="center">
+	<img width="1199" height="719" alt="fixed the issues for  ticket-fare html" src="https://github.com/user-attachments/assets/5d0ba2c5-717c-4c2d-b981-ca92991a8dc1" />
+</p>
+
+The lighthouse report for the contact page had great accessibility and best practice scores. Both were 100. The only issue was the performance score. So I did a repeat of stuff which mainly included descaling down carousel images and logos and setting the correct format. The performance score was brought up above 80. The remaining issues caused by Bootstrap classes were left alone.
+
+<p align="center">
+	<img width="973" height="714" alt="fixing performance issues for contact html" src="https://github.com/user-attachments/assets/6641efa5-a99f-4398-8a82-2ca9f2ba5ae6" />
+</p>
+
+The last page with images was the ‘booking-enquiry’ page. The ‘success’ page had less content in it. Both pages had the best practice scores of 100. The performance scores however were around 50-70 for both. The ‘booking-enquiry’ performance issues were caused by large scaled images and the use of ‘.png’ and ‘.jpg’ images. The ‘success’ pages accessibility score of 98 had increased to 100 when I fixed the hierarchy issue with the heading semantic elements.
+
+<p align="center">
+	<img width="788" height="952" alt="booking enquiry and success pages" src="https://github.com/user-attachments/assets/4b75209d-8685-41e1-a184-2191a4b441ea" />
+</p>
+
+It had been a while since I did a HTML/CSS validation test for my website. I started off with the HTML code of all four pages. The ‘success’ and ‘index’ pages had no errors. The ‘ticket-fare’ and ‘contact’ pages had a few coding errors. Deleting unused code and editing the mistakes didn’t take too long.
+
+<p align="center">
+	<img width="1837" height="1044" alt="HTML validation results" src="https://github.com/user-attachments/assets/a88b933d-8e0c-42d8-bbd1-de8896b26b64" />
+</p>
+
+I wanted to run the code of the ticket-fare and success pages through again. No errors, but I wasn’t finished. I hadn’t checked the CSS code from my stylesheet. I did apply the CSS autoprefixer before running the code through the CSS validation checker. There were a couple of warnings which had to do with the toolkits I had used, but there was one error I had to fix. The small issue with the ‘custom-button-filled:hover’ class was that I used the wrong invalid value for the ‘background-color’ property which was ‘none’. The correct value that I changed it to later was ‘transparent’.
+
+<p align="center">
+	<img width="1245" height="712" alt="checking CSS validation results and fixing it" src="https://github.com/user-attachments/assets/f98431ef-7cc5-44e2-ad82-7553c39e1695" />
+</p>
+
 ## Responsive Design
 I started coding the sections just to get the rough template for my homepage:
 * Navigation div:
@@ -247,7 +347,6 @@ I started coding the sections just to get the rough template for my homepage:
 
 <p align = "center">
  <img width="576" height="437" alt="setting-up-the-sections" src="https://github.com/user-attachments/assets/4cb73e03-c10c-40ef-b6a9-a9868b18c782" />
-
 </p>
 
 Using some custom CSS and CSS variables helped me to visualise how the website would look on many different screens. It was reassuring to see that the header, main and footer are responsive to all the screen sizes at this stage. The one mistake I had made was using the four divs in the footer designed to hold four different sections as placeholders for the social networks. 
