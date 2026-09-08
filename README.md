@@ -3,98 +3,57 @@
 # Milestone Project 1 (Deadline: Thursday, September 10, 2026)
 
 ## Overview
-This README contains the overall development of the 'Funanza' website.
 
+This README contains the overall development of the 'Funanza' website.
 
 [Link to the deployed website](https://farhathh.github.io/Milestone-Project-1/)
 <hr>
 
- ## Project Planning
+## UX
 
-I took a break to focus on other tasks which helped me to reflect on the importance of my website having the bare minimum to be functional and accessible. I had to think about the main business goals and the needs of the user who will be accessing my website. I’m well aware that people have frequently gone to fun houses at fun fairs. My business would need to stand out. I realised that a good USP (unique selling point) would be a fictional fun house that is the size of a mansion for people to explore. It is located on the outskirts of Bath, UK. I believed that this type of fun house could gain more attention.
+### Project Goals
 
-Primary business goal: 
-* Increase public foot traffic and popularity for fun houses.
+The aim of the Funanza website was to expand above and beyond what people would expect of a fun house. Many people are used to seeing smaller, more compact fun houses that are just part of a funfair/carnival. The journey and experience is short and sweet. Funanza was intended to expand on the experience with the space of a mansion with a wide outdoor space where other parts of the attraction can be seen. This can help to increase public foot traffic on the website if others enjoy what the website offers. By showing them engaging content, the users interacting with the official website may pique their curiosity.
 
-Supporting business goals:
-* Show off attractions and increase customer interest.
-* Provide engaging content.
-* Encourage people to visit.
+#### Developer Goals
+This was a good chance to get out of my comfort zone in how I would have worked with building websites before. I wished to expand my knowledge on User Experience as well as improve my current skill set. I hoped to make the final product accessible for everyone. It would be great to be able to have completed a passionate project that had not only brought other people to a new place, but I could learn more on the business perspective.
 
-Client/User types:
-* People who are often busy and need to take a break to enjoy themselves:
-  * (Parent(s))Families who want to enjoy the weekend off.
-  * Students who want to experience a fun atmosphere.
-  * Young energetic kids who need to use their energy somewhere and have a wacky time.
+#### User Goals:
+This attraction is aimed to be a family-friendly experience. Funanza has different sections to explore. Every group whether it is young people, children, special needs, elderly and even students. The majority of them will want to enjoy themselves when they have the free time. Children and students will often be too busy on the weekdays as well as their parents and other adults. Elderly people would want to have a fun time without overexerting their energy.
 
-## Skeleton
-I had struggled to come up with some design for the interface of my website. I had brainstormed to look for different layouts to use by sketching some thumbnails. I wanted to quickly visualise ideas from my head. The pen and paper stage was where I had to decide on a layout design that I would be happy with. I quickly moved onto doing the rough wireframes as I didn’t want to fall behind no time. I went with the standard format for the navigation bar section and the footer sections. I put in a placeholder logo as I didn’t have a name for my website at the time.
+#### Why does Funanza work for them?
+Funanza has a diverse range of areas to explore. These range from:
+*	A futuristic crystal maze to explore around. Adults and the Elderly may take the opportunity to soak in the atmosphere and travel at their own pace. Parents may take their children to relax while the kids can look around in amazement.
+*	VR Ghost Train is a silly segment with horror elements intended to give a good laugh to everyone. Heavily inspired by Darren Brown’s Ghost Train.
+*	The Roingo and Doingo duo offer some good banter and corny jokes for the younger crowd. Teenagers in their rebellious phase may take a liking to them.
+*	Escape Room Mystery Suited for groups of people or solo players. This gives everyone else a chance to use their thinking caps.   
 
-<p>
-  <img width="2016" height="950" alt="wireframe on paper" src="https://github.com/user-attachments/assets/cbe7bbf0-3a21-4f53-9f6c-0ce37b1ddcec" />
-</p>
+#### User Stories
+ 1.	As somebody who is visiting the website for the first time. I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration. It would make it easier to scroll the website on my phone and look at everything. I want to be able to access what is necessary.
+2.	As someone who is a secondary school student, I want to see high-quality images and engaging descriptions of the fun house attractions, so I can decide if it's the right place for me to go crazy and have fun and bring my friends over.
+3.	As a parent that is looking for a fun place to take my children, I need to find information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the staff. I need to be able to plan ahead and make sure my kids are ready in time. 
+4.	As a college student, I want to book a ticket via booking inquiry form, so I can easily organise a group visit or a special occasion. I’m always stumped with assignments most of the time so I don’t get much time to relax.
+ 5.	As a Student, I want to find clear information about available attractions so I can plan my visit within my budget and time constraints under a fair price.
+As an elderly person, I would love to see a reviews page to hear the pros and cons of the fun house establishment. I would much rather avoid places that are too rough or loud.
 
-I had only done a few before I decided to use these sketches as a reference for creating wireframes using ‘canva’. I had made interface designs for different screen sizes. This was used as a guideline for me to structure everything properly. I managed to finally name the website ‘Funanza’. It took me a couple of hours to make a firm decision and execute that as a lo-fi wireframe.
+Each user story has been a contribution to my development in designing my website the way it currently is. It made me consider carefully how the website should appear to everyone how people can navigate through and be able to perceive the information. This was eye-opening for me.
 
-<p>
-  <img width="1920" height="1080" alt="Funanza Website wireframes" src="https://github.com/user-attachments/assets/0f6e5673-6fca-4b5e-88f5-d85d22767ca1" />
-</p>
+### Strategy
 
- ## Scope
+I had started off with general ideas related to my interests and going off of what the user would expect from Funanza, how the layout would appear and the content that we would expect to find. I thought of concepts, films and cosplays that are carnival themed that could inspire me how the website could be, but had to be mindful of the target demographic. Some of the inspirations that motivate me weren't always appropriate for all ages. So I knew that I had to be mindful. I believed that trying to jot down my ideas in a mind map could help me analyse what sort of theme would work for the users. At this stage, I still struggled to stick to a suitable theme for my webpage. At this point, I went on to visit existing websites and places to help me stick to a concept that I was satisfied with. With most of these ideas, I can understand the general audience, but none of these ideas would be very unique. At this point, I created different mood boards to trigger some inspiration for my webpage. I explored a few themes like Horror, Cuteness, Mystery etc. This did eventually inspire me to consider having varied themes throughout the attractions instead. I even made a mind map for the website from a business perspective which influenced my approach the the interactive design of the Funanza website.
 
- <table align = "center">
-  <tr>
-   <th>In Scope</th>
-   <th>Out of Scope</th>
-  </tr>
-  <tr>
-   <td>User friendly navigation and responsive design</td>
-   <td>Notifications</td>
-  </tr>
-  <tr>
-   <td>Engaging content (Images and font)</td>
-   <td>Third party integrations</td>
-  </tr>
-  <tr>
-   <td>User testing</td>
-   <td>Animating smoother transitions</td>
-  </tr>
-  <tr>
-   <td>Contact detail and opening times</td>
-   <td>Date and Time in current timezone</td>
-  </tr>
- </table>
+![Cute mood board for theme inspiration](https://github.com/user-attachments/assets/570a0868-77b6-4ecc-9ee4-b1c845eb4be2)
+![Mind map of my website](https://github.com/user-attachments/assets/579e2f12-df9b-49ff-a816-3f18d9f3c1b0)
 
-## Strategy
+### Structure
 
-My Tutor had given us the clear task of creating a website which can either have three sections to navigate or three separate pages to explore. How we did it was up to us. I managed to brainstorm some ideas in a sketchbook. I had started off with general ideas related to my interests and going off of what the user would expect from each concept, how the layout would appear and the content that we would expect to find. I thought of concepts for websites that displayed information for niche movies that aren’t as popular, but also thought about who that would appeal to. I also believed that I would have a three-section webpage that focuses on fictional character’s basic info, preferences etc. I knew that I had to think about what content I would put in based on the idea.
+I considered the structure of the website. The main objective is to make sure that the user would be able to navigate the website and buy some tickets before going to Funanza. Using the fundamentals of UX Design, I was able to break it down into key sections to understand the rough structure for achieving the business goals and user needs. B2C was the strategy research approach that I took. I only wanted to make the process fairly simple for the consumers who just want to find information about the attraction, make a choice (by buying a ticket) and selecting a date and time. 
 
+![Information architecture for the website](https://github.com/user-attachments/assets/92c149d4-11d6-45a3-ad22-6f5c4dd4a070)
 
+### Priority List
 
-<p align = "center" margin = "10px">
- <img width="403.2" height="302.4" alt="Brainstorming Ideas" src="https://github.com/user-attachments/assets/803af8ec-d1e2-4a47-9bbb-4ba7ed29c844"/>
- <img width="335.5" height="386" alt="MP1 mindmap" src="https://github.com/user-attachments/assets/e22ba0b7-3485-419f-aae6-48934f10e484" />
-</p>
-
-I believed that trying to jot down my ideas in a mind map could help me analyse what sort of content was needed and the type of audience it may appeal to. At this stage, I still struggled to stick to a concept for my webpage. At this point, I went on to visit existing websites to help me stick to a concept that I was satisfied with. With most of the ideas I had written down I had trouble establishing the target audience. With most of these ideas, I can understand the general audience, but none of these ideas would be very unique. At this point, I created different moodboards to trigger some inspiration for my webpage. I explored a few themes like Horror, Cuteness, Mystery etc. This did eventually inspire me to come up with a concept where the user can gather information and book tickets to enjoy a fun house experience with their families/kids. 
-Thanks to the different UXD planes. I was able to break down a mind map.
-
-<p align = "center">
-<img width="480" height="270" alt="mixed_moodboard" src="https://github.com/user-attachments/assets/570a0868-77b6-4ecc-9ee4-b1c845eb4be2" />
-
-<img width="323.5" height="701" alt="my_mp1_concept" src="https://github.com/user-attachments/assets/579e2f12-df9b-49ff-a816-3f18d9f3c1b0" />
-</p>
-
-## Structure
-
-I did think about the cultural context. My intended audience were parents wanting to have a fun time with their families. The main objective is to make sure that the parent/guardian would be able to navigate the website and pick a fun house experience for their choosing. Using the notes I wrote down on UX Design, I was able to break it down into key sections to get me to think about what sort of content would be suitable for achieving the business goals and user needs. B2C was the strategy research approach that I took. I only wanted to make the process fairly simple for the consumers who just want to find information about the attractions, make a choice (by buying a ticket) and selecting a date and time. Date and Time might be a feature that can be implemented later.
-
-<p align = "center">
- <img width="632" height="322" alt="information architecture for mp1" src="https://github.com/user-attachments/assets/92c149d4-11d6-45a3-ad22-6f5c4dd4a070" />
-</p>
-
-When I made the priority list for my table, I tried to think about problems that could occur e.g. Website image not loading properly, looking too similar to existing products. I suspected there would need to be some sort of basket feature. The main issues that I had on my mind was getting the home page and the funhouse to have engaging content and visuals. Before, I had thought about the obvious issues that could arise with the website. The user could lose interest from lack of engagement, deployment could have bugs, or people mistake it for another website etc. At this stage, I hadn’t really thought about the goals and user’s needs yet. I was more concerned with how the user would react on a first impression.
-
+In regards to the information architecture. I thought about what type of problems could take place. To make, I tried to think about problems that could occur e.g. Website image not loading properly, looking too similar to existing products. I suspected there would need to be some sort of basket feature. The main issues that I had on my mind was prioritising the functionality of the webpage. Before, I had thought about the obvious issues that could arise with the website. The user could lose interest from lack of engagement, deployment could have bugs, or people mistake it for another website etc.  This kept me track on what to prioritise the most.
 
  <table align = "center">
     <tr>
@@ -103,18 +62,18 @@ When I made the priority list for my table, I tried to think about problems that
      <th>Visibility/Feasibility</th>
     </tr>
     <tr>
-      <td>User get frustrated</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>User can't buy a ticket</td>
-      <td>5</td>
+      <td>User faces error with booking a ticket</td>
       <td>3</td>
+      <td>4</td>
     </tr>
     <tr>
-      <td>Website malfunctioning</td>
+      <td>Navigation bar doesn't function </td>
       <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Website lacks reviews</td>
+      <td>2</td>
       <td>5</td>
     </tr>
     <tr>
@@ -122,22 +81,68 @@ When I made the priority list for my table, I tried to think about problems that
       <td>2</td>
       <td>4</td>
     </tr>
+	  <tr>
+      <td>Users can't see ticket prices</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+	  <tr>
+      <td>Users lack interest in the content</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
  </table>
 
+ ### Scope
+
+ <table align = "center">
+	  <tr>
+		   <th>In Scope</th>
+		   <th>Out of Scope</th>
+	  </tr>
+	  <tr>
+		   <td>User friendly navigation and responsive design</td>
+		   <td>Notifications</td>
+	  </tr>
+	  <tr>
+		   <td>Engaging content (Images and font)</td>
+		   <td>Third party integrations</td>
+	  </tr>
+	  <tr>
+		   <td>Booking Form</td>
+		   <td>Animating smoother transitions</td>
+	  </tr>
+	  <tr>
+		   <td>Contact detail and opening times</td>
+		   <td>Basket feature</td>
+	  </tr>
+ </table>
+
+ ### Skeleton
+Once I had read the user stories to get a better idea along with my theme brainstorming. I wanted to quickly visualise ideas from my head. I went with the standard format for the navigation bar section and the footer sections. I put in a placeholder name instead of the logo as I hadn’t designed one at this stage. I had made interface designs for different screen sizes. This was used as a guideline for me to structure everything properly. I managed to finally name the website ‘Funanza’. It took me a couple of hours to make a firm decision and execute that as a lo-fi wireframe. I simplified it for the sake of giving myself a rough guideline on how I wanted the website to look. 
+
+[Index page wireframe](https://github.com/user-attachments/assets/e75d0711-dd03-4c49-92f4-7547cd5e3610)
+
+[Ticket-fare page wireframe](https://github.com/user-attachments/assets/eca30c49-b132-4c0e-afe9-efe468d5e447)
+
+[Booking-enquiry page wireframe](https://github.com/user-attachments/assets/9ba1b5c7-9570-43bb-be80-71f1032e8465)
+
+[Contact page wireframe](https://github.com/user-attachments/assets/0a4626bc-6d1b-4b44-a7f5-9fb11c277297)
+
+## Credit
+
+### Code
+
+### Content
+
+### Media
 
 
 
-
-
-
- 
 ## Testing
 
 I deployed it as early as possible to save me the trouble of doing so near the deadline.
-
-<p align = "center">
-  <img width="920" height="73" alt="proof-of-deployment" src="https://github.com/user-attachments/assets/d3a7cc8e-fc55-4484-a6ed-40cba037bc88" />  
-</p>
+![Proof of deployment](https://github.com/user-attachments/assets/d3a7cc8e-fc55-4484-a6ed-40cba037bc88)
 
 I had implemented eternal resources such as Google Fonts, font awesome (for the kit link), Bootstrap version 5.3 for quicker development. Before I could progress further, I needed to know if all functions worked. I did this with the following tasks.
 
