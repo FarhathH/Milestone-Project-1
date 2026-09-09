@@ -1,6 +1,6 @@
 
 
-# Milestone Project 1 (Deadline: Thursday, September 10, 2026)
+# Funanza Website
 
 ## Overview
 
@@ -166,36 +166,58 @@ Once I had read the user stories to get a better idea along with my theme brains
 
 
 ## Deployment
+This project was made using VS Code and committed with GitHub Desktop majority of the time. Here are the steps to deploy the website on your own.
+
+1.	Login to the **GitHub website**
+2.	From the **list of repositories**, select **FarhathH/Milestone-Project-1**
+3.	From the **list of menu items** below the repository name, select **Settings**
+4.	At the side menu in the **Code, planning and automation**, select the **Pages tab** to get to the **GitHub Pages section**.
+5.	With the **sources** drop-down menu, make sure that **Deploy from a branch** is selected.
+6.	Underneath the **sources tab**, click the **drop-menu with non**e. Select and change it **master-branch**.
+7.	The page should refresh and there should be a **live link** of the deployed site.
+8.	**Retrieve** the link to the **deployed** website.
+
+
+If you don’t have the repository yet, you will need to follow these steps to clone the repository first.
+
+1.	**Click** this link to find the [GitHub repository](https://github.com/FarhathH/Milestone-Project-1)
+2.	Under the repository **click** the Code button and **copy** the HTTPS web URL.
+3.	In your local IDE **open** Git Bash.
+4.	**Change** the current directory where you want the cloned repository to be.
+5.	**Type** git clone and **paste** the URL you copied in step 3.
+
+The repository is ready for you to view, edit and make commits.
+
 
 ## Testing
 
-I deployed it as early as possible to save me the trouble of doing so near the deadline.
-![Proof of deployment](https://github.com/user-attachments/assets/d3a7cc8e-fc55-4484-a6ed-40cba037bc88)
+To be sure that my deployed version of Funanza functioned properly I set a few simple tasks using some basic HTML code. These were:
+*	The title being a larger size with the ‘Oi’ font with the crown symbol.
+*	The text in the paragraph tag should be smaller in size beneath the larger title.
+*	The email and password fields should be displayed beneath a space apart with placeholders within the input fields.
 
-I had implemented eternal resources such as Google Fonts, font awesome (for the kit link), Bootstrap version 5.3 for quicker development. Before I could progress further, I needed to know if all functions worked. I did this with the following tasks.
+ 
+ 	```
+		<!--testing the font awesome kit and google fonts-->    
+        <h1><i class="fa-brands fa-web-awesome"></i>Funanza</h1>
+        <p>is here</p>
 
-* Google Fonts:
-  * Implemented an imported link of the fonts: 'Oi' and 'Fontdiner Swanky' and set them as the font-family for the 'body' and 'h1' selectors.
-  * In the live server screenshot, both fonts are present so we can confirm that it works.
-* Font Awesome:
-  * Inserted the link at the bottom of the 'body' element.
-  * Inserted an 'i frame' element within the 'h1' heading.
-  * The live server showed the title and the crown (the i frame). This confirmed that the font awesome kit worked.
-* Bootstrap:
-  * Inserted the JavaScript link at the bottom of the 'body' element and the CSS link in the 'head' element.
-  * From the Bootstrap Doc website, I tried to add the input fields.
-  * From the moment I had saved the change, the live server view showed the 'email' and 'password' input fields. The bootstrap links worked properly.
 
-<p align = "center">
- <img width="400" height="300" alt="testing setup" src="https://github.com/user-attachments/assets/cdd2aff7-b2ad-4d5b-80cf-c70d27abd3bb" />
- <img width="600" height="225" alt="live server" src="https://github.com/user-attachments/assets/c0aff8bf-ca48-40bf-9c07-b137b98e038a" />
-</p>
+        <!--testing bootstrap link-->
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+	```
+Fortunately the results came out exactly as I desired. The live server version of the website at this stage achieved what I wanted. However, there is the deployed version. After loading the deployed version I loaded the deployed version and put the HTML and CSS through the validator. All the results of the validation check came out clear. I was satisfied so I saved and committed what I had at the time.
 
-To be extra safe, I loaded the deployed version and put the HTML and CSS through the validator. Everything seemed to be clear with no errors, but a warning about the imported link not being checked through the ‘direct input’ method. Once I was satisfied, I committed to my repository and saved the files. For the favicon in my window tab, that was quickly created in GIMP 2.1. I inserted that and deleted the cache for it to show up in the window tab.
+![The live server view of the website](https://github.com/user-attachments/assets/c0aff8bf-ca48-40bf-9c07-b137b98e038a)
+![The deployed website with HTML and CSS validation test results](https://github.com/user-attachments/assets/2e73eb2e-e5ad-4586-9750-2c784d46c9aa)
 
-<p align = "center">
-  <img width="1125" height="720" alt="validator-proof-with-deploy" src="https://github.com/user-attachments/assets/2e73eb2e-e5ad-4586-9750-2c784d46c9aa" />
-</p>
 
 I got to the stage when I noticed the problem with the header whilst constructing the interface. The main element has everything presented just fine, but the header element seemed out of place. It seemed the same regardless of what the screen size was.
 
