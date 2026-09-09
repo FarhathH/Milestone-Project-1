@@ -1,5 +1,3 @@
-
-
 # Funanza Website
 
 ## Overview
@@ -9,7 +7,7 @@ This README contains the overall development of the 'Funanza' website.
 [Link to the deployed website](https://farhathh.github.io/Milestone-Project-1/)
 <hr>
 
-## UX
+## User Experience
 
 ### Project Goals
 
@@ -30,10 +28,25 @@ Funanza has a diverse range of areas to explore. These range from:
 
 #### User Stories
  1.	As somebody who is visiting the website for the first time. I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration. It would make it easier to scroll the website on my phone and look at everything. I want to be able to access what is necessary.
-2.	As someone who is a secondary school student, I want to see high-quality images and engaging descriptions of the fun house attractions, so I can decide if it's the right place for me to go crazy and have fun and bring my friends over.
-3.	As a parent that is looking for a fun place to take my children, I need to find information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the staff. I need to be able to plan ahead and make sure my kids are ready in time. 
-4.	As a college student, I want to book a ticket via booking inquiry form, so I can easily organise a group visit or a special occasion. I’m always stumped with assignments most of the time so I don’t get much time to relax.
- 5.	As a Student, I want to find clear information about available attractions so I can plan my visit within my budget and time constraints under a fair price.
+
+	For this user, I wanted a simple nav bar that could be easy for everybody to interact with and navigate with straining their eyes and putting too much effort in searching. For this user’s request, the nav bar stays on the top of the screen within the user’s sight no matter how far they scroll down. I wanted to make it as clear as possible. Each nav item highlights what type of information they will involve.
+For accessibility purposes:
+
+	*	I had used the colours #B0E4CC for the nav bar’s background and #162E2C for the button’s background.
+	*	For the fonts, I used the default white colour for the nav items and the colour #162E2C for the font of the button.
+	*	Added a Logo with a white background to contrast with the nav bar background.
+
+	I also made sure that it was responsive and still easy for users to understand how to interact.
+
+	![The nav bar at full screen](https://github.com/user-attachments/assets/f08706c4-ec50-49ae-8a8f-e6e18fd44677)
+	![The nav bar at a smaller screen size](https://github.com/user-attachments/assets/1aa35e18-1f19-4b1c-921c-3cfddbe0fb77)
+	![The nav bar at a phone screen size](https://github.com/user-attachments/assets/aa75b115-5426-4303-9480-4d2f2d4b00c2)
+
+
+3.	As someone who is a secondary school student, I want to see high-quality images and engaging descriptions of the fun house attractions, so I can decide if it's the right place for me to go crazy and have fun and bring my friends over.
+4.	As a parent that is looking for a fun place to take my children, I need to find information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the staff. I need to be able to plan ahead and make sure my kids are ready in time. 
+5.	As a college student, I want to book a ticket via booking inquiry form, so I can easily organise a group visit or a special occasion. I’m always stumped with assignments most of the time so I don’t get much time to relax.
+6.	As a Student, I want to find clear information about available attractions so I can plan my visit within my budget and time constraints under a fair price.
 As an elderly person, I would love to see a reviews page to hear the pros and cons of the fun house establishment. I would much rather avoid places that are too rough or loud.
 
 Each user story has been a contribution to my development in designing my website the way it currently is. It made me consider carefully how the website should appear to everyone how people can navigate through and be able to perceive the information. This was eye-opening for me.
