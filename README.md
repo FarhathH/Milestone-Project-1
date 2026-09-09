@@ -132,12 +132,40 @@ Once I had read the user stories to get a better idea along with my theme brains
 ## Credit
 
 ### Code
+*	Majority of the HTML was made using [Bootstrap v5](https://getbootstrap.com/):
+	*	I used their re-built assets such as [cards](https://getbootstrap.com/docs/5.3/components/card/#about), [columns](https://getbootstrap.com/docs/5.3/layout/columns/#how-they-work), [carousels](https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works), [tables](https://getbootstrap.com/docs/5.3/content/tables/#overview), [form](https://getbootstrap.com/docs/5.3/forms/overview/#overview) and a [navbar](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works). I did modify them to closely resemble the wireframes designs I had made.
+	*	The icons I had used were taken from [Font-Awesome](https://fontawesome.com/) where I copied and pasted the my own toolkit generated for me.
+	*	Parts of my CSS where I had to search for some code to fix some issues [W3Schools](https://www.w3schools.com/css/default.asp) and [mdn](https://developer.mozilla.org/en-US/). It was modified to be more compatible for other browsers using [CSS autoprefixer](https://autoprefixer.github.io/).
+	*	Used [HTML validation checker](https://validator.w3.org/) and [CSS validation checker](https://jigsaw.w3.org/css-validator/) for testing errors in the code.
 
 ### Content
+*	Pexel
+	*	The [train-image](https://github.com/user-attachments/assets/841183e2-a33d-4202-881e-05ba2a141378) was taken from [Bilal Furkan KOŞAR](https://www.pexels.com/@bilalfurkankosar/) but modified by me to fit the theme of my website.
+	*	[The train-carriage-with-the-boy-wearing-a-VR-head-image](https://github.com/user-attachments/assets/778a73a7-cf63-4623-9086-b6b8a1749dd8) on one of the cards were two images from [Xuan Shen](https://www.pexels.com/@xuan-shen-3489667/) and [Tima Miroshnichenko](https://www.pexels.com/@tima-miroshnichenko/).
+ edited together by me using [GIMP](https://www.gimp.org/).
+	*	The [ticket-sign image](https://github.com/user-attachments/assets/2077fd45-e2e9-49c9-a8b6-adfa8b418fb5) was taken from a user called [Eyes2Soul Eyes2Soul](https://www.pexels.com/@eyes2soul/). 
+	*	The [ticket-fare image with a table texture](https://github.com/user-attachments/assets/aaca21bc-2bbb-455c-8abd-5826c7908acb) was taken from [Digital Buggu](https://www.pexels.com/@digitalbuggu/). I illustrated the tickets there and rendered them together.
+	*	The [clowns image](https://github.com/user-attachments/assets/cdf13896-53eb-439d-b588-34e62261c85a) was taken from [Gustavo Martínez](https://www.pexels.com/@gustavo-martinez-1539476028/).
+	*	[Kids-exploring-room images](https://github.com/user-attachments/assets/bc5551a4-5f16-4386-8b73-9c119c731e01) were taken from [Anastasia Shuraeva](https://www.pexels.com/@anastasia-shuraeva/).
+	*	The [countryside image #1](https://github.com/user-attachments/assets/035c5309-3b2e-4020-bc9e-5e2522485291) and [countryside #2](https://github.com/user-attachments/assets/6d970db4-198c-4ed0-b816-6c3c33531bde) were taken from users [Sergio Zhukov](https://www.pexels.com/@triemli/) and [Зоряна Русин](https://www.pexels.com/@2151973914/).
+	*	The [city image](https://github.com/user-attachments/assets/757dfcae-397e-46a5-a0a8-714715099d90) was taken from [Boys in Bristol Photography](https://www.pexels.com/@lebele/).
+	*	[Crystal maze image](https://github.com/user-attachments/assets/dc2a8330-c222-45d4-967b-95b8cf5b68ed) was taken from [Larry Jenkins](https://www.pexels.com/@larry-jenkins-517655117/).
+	*	The [mirror maze image](https://github.com/user-attachments/assets/a8b098e1-d96d-4cfd-b3c6-2d70ae7686d9) was taken from [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/).
+	*	The [clown staff member image](https://github.com/user-attachments/assets/6b2488d0-cf66-4dea-880e-89bb3903d9e8) was taken from [Capotina Entretenimientos](https://www.pexels.com/@capotina/).
+	*	The [escape room image with handcuffs](https://github.com/user-attachments/assets/34b5ba45-a63f-4940-98bc-0535b2494879) and [Sensory-room image](https://github.com/user-attachments/assets/3f5790d9-7817-43d0-94f5-82f515cd70b7) was taken from a user named [RDNE Stock project](https://www.pexels.com/@rdne/), but was heavily edited by me with [GIMP](https://www.gimp.org/).
+ 	*	The [neon-hallway image](https://github.com/user-attachments/assets/5ea35b52-9e30-4b8a-a23c-7576c2777940) was taken from [Andrea De Santis](https://www.pexels.com/@santesson89/).
+	*	The [people-in-the- graffiti-hallway](https://github.com/user-attachments/assets/a33096af-7b7a-43c8-994e-1bad9e9f4a7b) was taken from [Josué A. Soria](https://www.pexels.com/@josue-a-soria-609628594/).
+	*	The [logo, footer image](https://github.com/user-attachments/assets/bb6e8407-f478-45c8-8d82-ef3065c2940d) and [ticket icon](https://github.com/user-attachments/assets/b35290d9-ffb0-4e3d-ab5c-fe89f473555a) were produced by me using [GIMP](https://www.gimp.org/).
+
+*	Fonts that I had used for my headings, [“Oi”](https://github.com/user-attachments/assets/c058e435-e81a-41e7-a2f1-9540df936945) and [“Fontdiner Swanky”](https://github.com/user-attachments/assets/7537f58d-a63b-4119-af3a-d077f8f12693), were found on [Google Fonts](https://fonts.google.com/).
+*	The written content with the website was produced by myself.
 
 ### Media
+*	The map embedded was taken from [Google Maps](https://www.google.com/maps). I used a random address on the outskirts of Bath, UK with a fake number.
+*	Media queries were coded by myself in Custom CSS.
 
 
+## Deployment
 
 ## Testing
 
