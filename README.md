@@ -1,5 +1,3 @@
-
-
 # Funanza Website
 
 ## Overview
@@ -9,7 +7,7 @@ This README contains the overall development of the 'Funanza' website.
 [Link to the deployed website](https://farhathh.github.io/Milestone-Project-1/)
 <hr>
 
-## UX
+## User Experience
 
 ### Project Goals
 
@@ -29,12 +27,55 @@ Funanza has a diverse range of areas to explore. These range from:
 *	Escape Room Mystery Suited for groups of people or solo players. This gives everyone else a chance to use their thinking caps.   
 
 #### User Stories
- 1.	As somebody who is visiting the website for the first time. I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration. It would make it easier to scroll the website on my phone and look at everything. I want to be able to access what is necessary.
-2.	As someone who is a secondary school student, I want to see high-quality images and engaging descriptions of the fun house attractions, so I can decide if it's the right place for me to go crazy and have fun and bring my friends over.
-3.	As a parent that is looking for a fun place to take my children, I need to find information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the staff. I need to be able to plan ahead and make sure my kids are ready in time. 
-4.	As a college student, I want to book a ticket via booking inquiry form, so I can easily organise a group visit or a special occasion. I’m always stumped with assignments most of the time so I don’t get much time to relax.
- 5.	As a Student, I want to find clear information about available attractions so I can plan my visit within my budget and time constraints under a fair price.
-As an elderly person, I would love to see a reviews page to hear the pros and cons of the fun house establishment. I would much rather avoid places that are too rough or loud.
+ 1.	"As somebody who is visiting the website for the first time. I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration. It would make it easier to scroll the website on my phone and look at everything. I want to be able to access what is necessary."
+
+	For this user, I wanted a simple nav bar that could be easy for everybody to interact with and navigate with straining their eyes and putting too much effort in searching. For this user’s request, the nav bar stays on the top of the screen within the user’s sight no matter how far they scroll down. I wanted to make it as clear as possible. Each nav item highlights what type of information they will involve.
+For accessibility purposes:
+
+	*	I had used the colours #B0E4CC for the nav bar’s background and #162E2C for the button’s background.
+	*	For the fonts, I used the default white colour for the nav items and the colour #162E2C for the font of the button.
+	*	Added a Logo with a white background to contrast with the nav bar background.
+
+	I also made sure that it was responsive and still easy for users to understand how to interact.
+
+	![The nav bar at full screen](https://github.com/user-attachments/assets/f08706c4-ec50-49ae-8a8f-e6e18fd44677)
+	![The nav bar at a smaller screen size](https://github.com/user-attachments/assets/1aa35e18-1f19-4b1c-921c-3cfddbe0fb77)
+	![The nav bar at a phone screen size](https://github.com/user-attachments/assets/aa75b115-5426-4303-9480-4d2f2d4b00c2)
+
+
+2.	"As someone who is a secondary school student, I want to see high-quality images and engaging descriptions of the fun house attractions, so I can decide if it's the right place for me to go crazy and have fun and bring my friends over."
+
+	Making this was a little challenging. Later down the line, I had to downscale some images in the cards to improve performance issues. The images are slightly blurrier than I would have liked. But they do a good job on displaying the various activities that the user can expect from Funanza. I designed the layout based on the wireframe I made for this. To make it more engaging I added big and bold fonts for main headings and slightly smaller fonts for the subheadings. This made it easier to organise content. The image below shows the common carousel banner applied for most pages to catch the user’s attention with the images and the written info displayed. The index page has a ‘key features’ section with images and brief sub headings and descriptions side by side.
+
+	![Index page example of user 1's request](https://github.com/user-attachments/assets/7c503128-55fb-409f-8c69-b8052b63d602)
+
+3.	"As a parent that is looking for a fun place to take my children, I need to find information such as location, contact details, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the staff. I need to be able to plan ahead and make sure my kids are ready in time."
+
+	For this user, I placed opening times with all the opening and closing times in the footer section of each page and placed a nav item in the nav bar called ‘Opening Times’ . It is a better user experience as the user can easily rely on the navbar to take them to the opening times and social links. The nav bar also has a nav item called ‘Contact Us’ to take the user to the page of our website where they can find the address, phone number and email with an embedded Google Maps to pinpoint the location of the funhouse. It will be easier for them to ask for details and plan their journey.
+
+	![Nav bar for the user to find the opening times and contact page](https://github.com/user-attachments/assets/95cd4e87-ff8e-4dd9-818c-48a379092f66)
+	![The opening times shown in the footer section](https://github.com/user-attachments/assets/740fdf18-2b1b-49bf-881a-3df3e023202e)
+	![The contact page with the map location and contact details](https://github.com/user-attachments/assets/d9c95f60-c0c9-47be-b3b8-b95a2f316354)
+
+4.	"As a college student, I want to book a ticket via booking inquiry form, so I can easily organise a group visit or a special occasion. I’m always stumped with assignments most of the time so I don’t get much time to relax."
+	
+	I quickly implemented a booking form with information on what to input for the user and it is accessible through the nar bar with the ‘Book Now’ button. On a successful submission the user is directed to the success page. It’s a quick and easy process for most users and I made sure to make darker coloured borders for the input fields and font so that it is easier to read.
+
+	![Nav bar with the 'Book Now' button](https://github.com/user-attachments/assets/9fb8099d-b087-4f63-800e-50234c5811de)
+	![Booking form for user 4](https://github.com/user-attachments/assets/46962a85-231d-4977-9f53-2dba8ef2303a)
+	![The success page for user 4](https://github.com/user-attachments/assets/2957975d-2352-4953-bcaf-993274268b8d)
+
+5.	"As a Student, I want to find clear information about available attractions so I can plan my visit within my budget and time constraints under a fair price."
+
+	I mainly achieved showing off the attractions through the index page. I have a separate page that shows off ticket prices and discounts for students and children. I added an image to accompany the prices rather than stretching it out so that it would look better for the user.
+
+	![Nav bar with nav item "Prices"](https://github.com/user-attachments/assets/6ddfdf8f-b376-48c0-b3b6-6cb4cdfbdcbf)
+	![The prices table on desktop](https://github.com/user-attachments/assets/858adcc7-d062-487e-a48a-bb6fa5c86ca6)
+	![The prices table on a smaller screen](https://github.com/user-attachments/assets/81f63b00-2562-4c75-aa2b-2a728b0148f9)
+
+6.	As an elderly person, I would love to see a reviews page to hear the pros and cons of the fun house establishment. I would much rather avoid places that are too rough or loud.
+
+	Due to time constraints, I didn’t have enough time to put on this feature for the Funanza website. Hopefully, through word of mouth. They would consider visiting the Funanza attraction.
 
 Each user story has been a contribution to my development in designing my website the way it currently is. It made me consider carefully how the website should appear to everyone how people can navigate through and be able to perceive the information. This was eye-opening for me.
 
