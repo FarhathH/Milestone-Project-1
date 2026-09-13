@@ -262,19 +262,32 @@ Fortunately the results came out exactly as I desired. The live server version o
 
 I got to the stage when I noticed the problem with the header whilst constructing the interface. The main element has everything presented just fine, but the header element seemed out of place. It seemed the same regardless of what the screen size was.
 
-<p align= "center">
- <img width="1237" height="209" alt="problem-with-header" src="https://github.com/user-attachments/assets/ae74eed8-b219-4bf5-b2ff-7b093bc30d2b" />
-</p>
+![The problem with the hero-image section](https://github.com/user-attachments/assets/ae74eed8-b219-4bf5-b2ff-7b093bc30d2b)
 
-So I put it through the HTML validator to check. Realised that according to the errors noted, line 30 where I placed the elements have a few row tags put there by mistake. They were supposed child divs with a ‘col’ class nested within another div with a row class. The typos made have resulted in this error.
+So I put it through the HTML validator to check. Realised that with the main error that started on line 30. Because ‘the hero image’ wasn’t placed within the same row div as the ‘About us’ section. Not only that, but I managed to nest the ‘About Us’ section in a ‘row’ tag which was then nested within a div.
 
-<p align= "center">
-  <img width="563" height="336" alt="HTML-validator-results" src="https://github.com/user-attachments/assets/8604e6f5-4745-48bc-a0dd-74aaeaf5826b" />
-</p>
-So at this point, I decided to make the corrections before saving the changes and committing. After loading the live server again, the header was fixed.
-<p align = "center">
-  <img width="843" height="658" alt="coding-error-comparison" src="https://github.com/user-attachments/assets/438f7ad8-c3b0-41fb-b045-6f1ae0f8748c" />
-</p>
+![HTML validator results](https://github.com/user-attachments/assets/8604e6f5-4745-48bc-a0dd-74aaeaf5826b)
+
+	```Old code with errors
+	<!--Header with hero image-->
+	        <header class="container">
+	            <row class="col-12 col-xl-6">Hero image</row>
+	            <div class="container">
+	                <div class="row"><row class="col-12 col-xl-6">About us text</row></div>
+	            </div> 
+	        </header>
+	```
+
+    ```New code with corrections
+	<!--Header with hero image-->
+	        <header class="container">
+	            <div class="row">
+	                <div class="col-12 col-xl-6">Hero image</div>
+	                <div class="col-12 col-xl-6">About us text</div>    
+	            </div>
+	        </header>
+	```
+
 
 Tested the deployed website again after adding a navbar. When I checked with the dev tools in the browser. Whilst the navbar’s screen response was fine, the ‘Booking Enquiry’ heading would glitch out when I would smoothly move it into the screen size of a tablet. I thought that was strange. I decided to put it through the HTML and CSS validator to check for any upcoming errors that I may not have noticed. Good news was that there are no CSS errors, but there were warnings that the imported links and CSS variables are not checked. The HTML error was the h3 tag on line 51 for my file.
 
