@@ -264,44 +264,111 @@ I got to the stage when I noticed the problem with the header whilst constructin
 
 ![The problem with the hero-image section](https://github.com/user-attachments/assets/ae74eed8-b219-4bf5-b2ff-7b093bc30d2b)
 
-So I put it through the HTML validator to check. Realised that with the main error that started on line 30. Because ‘the hero image’ wasn’t placed within the same row div as the ‘About us’ section. Not only that, but I managed to nest the ‘About Us’ section in a ‘row’ tag which was then nested within a div.
+So I put it through the HTML validator to check. Realised that with the main error that started on line 30. Because ‘the hero image’ wasn’t placed within the same row div as the ‘About us’ section. Not only that, but I managed to nest the ‘About Us’ section in a ‘row’ tag which was then nested within a div. To fix the issue, the ‘About Us’ section was changed to a div with a ‘column’ class just like the ‘hero image’ div. Then I nested it in the same div (with a ‘row’ class) as the ‘hero image’ section after deleting the extra divs. This ended up being an easy solution.
 
 ![HTML validator results](https://github.com/user-attachments/assets/8604e6f5-4745-48bc-a0dd-74aaeaf5826b)
 
-	```Old code with errors
+```
+	Old code with errors
+	```
 	<!--Header with hero image-->
-	        <header class="container">
-	            <row class="col-12 col-xl-6">Hero image</row>
-	            <div class="container">
-	                <div class="row"><row class="col-12 col-xl-6">About us text</row></div>
-	            </div> 
-	        </header>
+			<header class="container">
+				<row class="col-12 col-xl-6">Hero image</row>
+				<div class="container">
+					<div class="row"><row class="col-12 col-xl-6">About us text</row></div>
+				</div> 
+			</header>
 	```
 
-    ```New code with corrections
+	New code with corrections
+	```
 	<!--Header with hero image-->
-	        <header class="container">
+			<header class="container">
+				<div class="row">
+					<div class="col-12 col-xl-6">Hero image</div>
+					<div class="col-12 col-xl-6">About us text</div>    
+				</div>
+			</header>
+	```
+```
+
+			
+			
+![The newer results after coding errors were solved](https://github.com/user-attachments/assets/9574bd39-592d-411a-9235-ae3f6267d80f)
+
+When I had started formatting the sections of the ‘booking-enquiry’ page with my chosen fonts. I had opened the deployed version just to check the responsiveness. I wanted to be sure that the nav bar, the ‘booking-enquiry’, paragraphs and footer should be fully responsive when changing screen size. What did happen is that every other section of the webpage was responsive to every screen size, but the main title had trouble with changing size and position. When I put it through the HTML validation test, the only error I noticed was that on line 51 of the file, the implementation of the 'H3' tag skipped the hierarchical structure of the headings as they were semantic elements. So I decided to change it from a 'h3' tag to a paragraph tag.
+
+![Checking the deployed website](https://github.com/user-attachments/assets/2456b6b2-b20a-4155-b078-786519448442)
+![Putting the code through a HTML validation test](https://github.com/user-attachments/assets/0f441940-fafd-4f8d-8b48-060719fd3140)
+![The CSS validation test as well](https://github.com/user-attachments/assets/50a2ea88-0c02-40b2-95f7-f8a2d1a5cb67)
+
+```
+	Old code
+	```
+	<div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-12">
+                        <h3>Booking form</h3>
+                        <p>form here</p>
+                    </div>
+                </div>
+	```
+
+	New code
+	```
+	<div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-12">
+                        <p>Booking form</p>
+                        <p>form here</p>
+                    </div>
+                </div>
+	```
+```
+
+When I viewed the webpage from the browser and noticed that the problem with the ‘booking-enquiry’ title had remained, I knew that manually checking the code was the next best step. Through exploring dev tools to look through the files in VS code itself. I noticed the difference between the header section and the main section. The lines of code for the header lacked a set ‘column’ class for a medium screen size. Adding another ‘column’ class for medium screen size managed to make it more responsive in a smoother manner.
+
+```
+	Old code
+	```
+	 <!--Header with hero image-->
+	         <header class="container">
 	            <div class="row">
-	                <div class="col-12 col-xl-6">Hero image</div>
-	                <div class="col-12 col-xl-6">About us text</div>    
-	            </div>
+	                <div class="col-12 col-xl-6">
+	                    <h1 class="display-3">Booking Enquiry</h1>
+	                    <p class="lead display-6 sub-heading-color">
+	                        brief subheading
+	                    </p>
+	                    <p>
+	                        Extra info
+	                    </p>
+	                </div> 
+	                <div class="col-12 col-xl-6">hero image</div> 
+	            </div>  
 	        </header>
+		```
+
+	New code
 	```
+	 <!--Header with hero image-->
+	         <header class="container">
+	            <div class="row">
+	                <div class="col-12 col-md-6 col-xl-6">
+	                    <h1 class="display-3">Booking Enquiry</h1>
+	                    <p class="lead display-6 sub-heading-color">
+	                        brief subheading
+	                    </p>
+	                    <p>
+	                        Extra info
+	                    </p>
+	                </div> 
+	                <div class="col-12 col-md-6 col-xl-6">hero image</div> 
+	            </div>  
+	        </header>
+		```
+```
 
-
-Tested the deployed website again after adding a navbar. When I checked with the dev tools in the browser. Whilst the navbar’s screen response was fine, the ‘Booking Enquiry’ heading would glitch out when I would smoothly move it into the screen size of a tablet. I thought that was strange. I decided to put it through the HTML and CSS validator to check for any upcoming errors that I may not have noticed. Good news was that there are no CSS errors, but there were warnings that the imported links and CSS variables are not checked. The HTML error was the h3 tag on line 51 for my file.
-
-<p align = "center">
- <img width="390" height="439" alt="testing-deployed-version" src="https://github.com/user-attachments/assets/2456b6b2-b20a-4155-b078-786519448442" />
- <img width="381" height="92" alt="booking-page-html-validatot-test" src="https://github.com/user-attachments/assets/0f441940-fafd-4f8d-8b48-060719fd3140" />
-<img width="500" height="110" alt="css-validator-test-clear" src="https://github.com/user-attachments/assets/50a2ea88-0c02-40b2-95f7-f8a2d1a5cb67" />
-</p>
-
-When I looked through the file and changed the h1 tag to a p tag, that still didn't solve the issue with the glitched heading. I decided to look at the line of code with the ‘Booking Enquiry’ heading inside. I forgot to set the medium setting for the ‘col’ class. Changing that actually solved the issue. 
-
-<p align= "center">
- <img width="996" height="450" alt="code-comparison" src="https://github.com/user-attachments/assets/0919103c-1c63-4712-8024-4481e87efc78" />
-</p>
+![The code comparison](https://github.com/user-attachments/assets/0919103c-1c63-4712-8024-4481e87efc78)
 
 I have gotten to the point where I needed to test the ‘index’, ‘ticket-fare’, ‘booking enquiry’ and the contact pages. I put the html and css code through the HTML/CSS validator. Although both the ‘index’ and the ‘booking enquiry’ pages had no errors, the ‘contact’ and ‘ticket-fare’ pages had a few along with the CSS.
 
