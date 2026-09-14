@@ -370,50 +370,112 @@ When I viewed the webpage from the browser and noticed that the problem with the
 
 ![The code comparison](https://github.com/user-attachments/assets/0919103c-1c63-4712-8024-4481e87efc78)
 
-I have gotten to the point where I needed to test the ‘index’, ‘ticket-fare’, ‘booking enquiry’ and the contact pages. I put the html and css code through the HTML/CSS validator. Although both the ‘index’ and the ‘booking enquiry’ pages had no errors, the ‘contact’ and ‘ticket-fare’ pages had a few along with the CSS.
+I needed to test the ‘index’, ‘ticket-fare’, ‘booking enquiry’ and the contact pages. I just wanted to be sure that all the coding was formatted and written properly. I put the html and CSS code through the HTML/CSS validator and found a couple of errors.
 
 * 	Main errors:
 	*	The ‘contact’ page on line 106 claimed “No p element in scope, but a p end tag seen”. I had initially placed divs between the p open and end tag. This caused it to produce an error as I had not written anything in the p tag, but in the div tags.
 	*	For the ‘ticket-fare’ page, on line 110 said “Row 3 of a row group established by a ‘tbody’ element had no beginning cells on it.”. When I manually made the table, I left one of the rows blank, thinking that it would be fine.
-	*	The CSS stylesheet error mentioned on line 113 “#main-attractions .img-fluid Value error: margin ‘none’ is not a value”. The funny thing about that is that the code still ran fine even in the deployed version of the website.
+	*	The CSS style sheet error mentioned on line 113 “#main-attractions .img-fluid Value error: margin ‘none’ is not a value”. The funny thing about that is that the code still ran fine even in the deployed version of the website.
 
-<p align="center">
- <img width="1211" height="589" alt="contactpage" src="https://github.com/user-attachments/assets/7705e57e-f648-49d9-8733-f742af53d793" />
- <img width="1228" height="667" alt="ticketpage" src="https://github.com/user-attachments/assets/8ae959e4-b2ef-436e-97d8-b5656d2e160e" />
- <img width="1241" height="536" alt="CSS error" src="https://github.com/user-attachments/assets/13cad981-107e-4099-870b-ac012de7d8c9" />
-</p>
+![The Contact page HTML validator results](https://github.com/user-attachments/assets/7705e57e-f648-49d9-8733-f742af53d793)
+![The Ticker-fare page HTML validator results](https://github.com/user-attachments/assets/8ae959e4-b2ef-436e-97d8-b5656d2e160e)
+![CSS Error](https://github.com/user-attachments/assets/13cad981-107e-4099-870b-ac012de7d8c9)
+
+
 
 The quick solutions I did for each to fix the issues:
 *	Removed the p tags, deleted divs and put the placeholder info within a single div with br tags between.
 *	Added td tags (cells) in the row (tr tags).
 *	Changed the margin value from ‘none’ to ‘0’.
 
+```
+	```Contact page old code
+	<p>
+		<div>address</div>
+		<div>phone nummber</div>
+		<div>Email address</div>    
+	</p>
+	```
+	
+	```Contact page new code
+	<div>
+		address<br>
+		phone number<br>
+		email address<br>
+	</div>
+	```
+```
+```
+		```Ticket-fare page old code
+	   	<tr></tr>
+		```
+
+		```Ticket-fare page new code
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		```
+```
+```
+	```CSS old code
+	@media screen and (min-width:768px) {
+	    #main-attractions .img-fluid{
+	        margin: none;  
+	    }
+	```
+	```CSS new code
+	@media screen and (min-width:768px) {
+	    #main-attractions .img-fluid{
+	        margin: 0; 
+	    }
+	```
+```
+
 When I created the footer section, I had to test the code again through HTML/CSS validator. Everything seemed fine. The footer presented exactly the way I wanted, but there was one error within the html code. On line 198, there was no space between the attributes. It was an easy error to fix. The footer was added to the other pages afterwards.
 
-<p align="center">
- <img width="1182" height="145" alt="tested HTML after  footer editing" src="https://github.com/user-attachments/assets/f8175f1d-04e2-45ed-af9f-f4c045b98aee" />
-</p>
+![Tested HTML code for the footer section](https://github.com/user-attachments/assets/f8175f1d-04e2-45ed-af9f-f4c045b98aee)
+
+```
+	``` Old line of code from the footer section
+	<img src="assets/favicon-v.2/android-chrome-192x192.png"alt="Logo in the footer">
+	```
+	```New line of code from the footer section
+	<img src="assets/favicon-v.2/android-chrome-192x192.png" alt="Logo in the footer">
+	```
+
+```
 
 I finally got down to creating the form for users to fill in their details and gain tickets. I had put it through a HTML validation check. Most of the fields (Name, Email, Phone number, Date/Time) passed the validation check. However, with the number input fields for the tickets, I expected it to notify the user that either the format written was incorrect or that a number needed to be typed in, it was completely ignored.
 
-<p align="center">
-	<img width="473" height="242" alt="Manually testing form" src="https://github.com/user-attachments/assets/052c4bb9-a575-4943-819c-1f7c7cce6c22" />
-</p>
+![Used the built-in HTML](https://github.com/user-attachments/assets/052c4bb9-a575-4943-819c-1f7c7cce6c22)
 
-I started researching through forums on how to increase the min value as I didn’t want the user to be able to input a negative value. I managed to find some fundamental information about the number input type on the Mdn documentation website. It showed some code using the ‘min’ and ‘max’ attributes. I even edited the code on the website to test if the attributes still worked. At this point, I found the solution to the issue.
+I started researching through forums on how to increase the min value as I didn’t want the user to be able to input a negative value. I managed to find some fundamental information about the number input type on the 'Mdn' documentation website. It showed some code using the ‘min’ and ‘max’ attributes. I even edited the code on the website to test if the attributes still worked. At this point, I found the solution to the issue. I soon tested the ticket and message fields. Making sure it would prevent the form from being sent anytime the criteria wasn’t met. All the rest of the fields seemed to work as intended. I knew at that point that the moment I was taken to the success.html page after submitting the form. The form passed the HTML validation check.
 
-<p align="center">
-	<img width="1488" height="230" alt="Researched into ways to limiting the min value" src="https://github.com/user-attachments/assets/9f776523-7f92-4c3e-81b4-f644ec266a72" />
-</p>
+```
+	```Input fields before
+		<input type="number" id="child" class="form-control square" required>
+		<input type="number" id="adult" class="form-control square" required>
+		<input type="number" id="family" class="form-control square" required>
+		<input type="number" id="student" class="form-control square" required>
+		<input type="number" id="senior" class="form-control square" required>
+		<input type="number" id="concession" class="form-control square" required>
+	```
+	```Input fields after
+		<input type="number" id="child" class="form-control square" min="0" max="100" required>
+		<input type="number" id="adult" class="form-control square" min="0" max="100" required>
+		<input type="number" id="family" class="form-control square" min="0" max="100" required>
+		<input type="number" id="student" class="form-control square" min="0" max="100" required>
+		<input type="number" id="senior" class="form-control square" min="0" max="100" required>
+		<input type="number" id="concession" class="form-control square" min="0" max="100" required>
+	```
+```
+	
+![Passed the validation check](https://github.com/user-attachments/assets/695f60e6-a02d-42ac-8583-47b5492078b9)
+![Proof of success](https://github.com/user-attachments/assets/f981b018-c3ed-4553-b5ae-444be3949f79)
 
-I soon tested the ticket and message fields. Making sure it would prevent the form from being sent anytime the criteria wasn’t met. All the rest of the fields seemed to work as intended. I knew at that point that the moment I was taken to the success.html page after submitting the form. The form passed the HTML validation check.
-
-<p align="center">
-	<img width="707" height="509" alt="proof of success" src="https://github.com/user-attachments/assets/f981b018-c3ed-4553-b5ae-444be3949f79" />
-	<img width="666.5" height="295" alt="passed the validator check" src="https://github.com/user-attachments/assets/695f60e6-a02d-42ac-8583-47b5492078b9" />
-</p>
-
-When I managed to implement all the core features of my website. I wanted to make sure that the website functioned as it should through interaction. I performed a manual test and managed it find that:
+When I eventually managed to implement all the core features of my website. I wanted to make sure that the website functioned as it should through interaction. I performed a manual test and managed it find that:
 *	The navbar functioned fine. Logo and nav items took me to the corresponding pages.
 *	The ‘book now’ buttons navigated me towards the form.
 *	All input fields built-in HTML validation checks triggered as intended e.g. letting me know when the incorrect information or lack of info was present.
