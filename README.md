@@ -483,12 +483,11 @@ When I eventually managed to implement all the core features of my website. I wa
 *	The success page popped up when the form was filled in and submitted.
 *	The website is responsive to different screen sizes.
 
-<p align="center">
-	<img width="987" height="1075" alt="Manually testing deployed website" src="https://github.com/user-attachments/assets/3562729e-14b7-47c7-9200-12be5c739c9e" />
-</p>
+
+![Finally manual tested the core features of the website](https://github.com/user-attachments/assets/3562729e-14b7-47c7-9200-12be5c739c9e)
 
 There were problems that arose from testing such as:
-*	The navbar stays at the top of the page and the user would have to scroll back up. I fixed this by applying the ‘fixed-top’ class to the navbars of each page and also added some padding to the top of the body element. This allowed the navbar to stay at the top of the screen visible no matter how far the user scrolled. For the mobile view, I borrowed some of this javaScript code to automatically close the navbar menu when selecting the nav item that takes me to opening times:
+*	The navbar stays at the top of the page and the user would have to scroll back up. I fixed this by applying the ‘fixed-top’ class to the navbars of each page and also added some padding to the top of the body element. This allowed the navbar to stay at the top of the screen visible no matter how far the user scrolled. For the mobile view, I borrowed some of this JavaScript code to automatically close the navbar menu when selecting the nav item that takes me to opening times:
 
 ```
 <script>
