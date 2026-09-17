@@ -389,15 +389,16 @@ The quick solutions I did for each to fix the issues:
 *	Changed the margin value from ‘none’ to ‘0’.
 
 ```
-	```Contact page old code
+	Contact page old code
+	```
 	<p>
 		<div>address</div>
 		<div>phone nummber</div>
 		<div>Email address</div>    
 	</p>
 	```
-	
-	```Contact page new code
+	Contact page new code
+	```
 	<div>
 		address<br>
 		phone number<br>
@@ -406,11 +407,13 @@ The quick solutions I did for each to fix the issues:
 	```
 ```
 ```
-		```Ticket-fare page old code
+		Ticket-fare page old code
+		```
 	   	<tr></tr>
 		```
 
-		```Ticket-fare page new code
+		Ticket-fare page new code
+		```
 		<tr>
 			<td></td>
 			<td></td>
@@ -419,13 +422,15 @@ The quick solutions I did for each to fix the issues:
 		```
 ```
 ```
-	```CSS old code
+	CSS old code
+	```
 	@media screen and (min-width:768px) {
 	    #main-attractions .img-fluid{
 	        margin: none;  
 	    }
 	```
-	```CSS new code
+	CSS new code
+	```
 	@media screen and (min-width:768px) {
 	    #main-attractions .img-fluid{
 	        margin: 0; 
@@ -438,10 +443,12 @@ When I created the footer section, I had to test the code again through HTML/CSS
 ![Tested HTML code for the footer section](https://github.com/user-attachments/assets/f8175f1d-04e2-45ed-af9f-f4c045b98aee)
 
 ```
-	``` Old line of code from the footer section
+	Old line of code from the footer section
+	``` 
 	<img src="assets/favicon-v.2/android-chrome-192x192.png"alt="Logo in the footer">
 	```
-	```New line of code from the footer section
+	New line of code from the footer section
+	```
 	<img src="assets/favicon-v.2/android-chrome-192x192.png" alt="Logo in the footer">
 	```
 
@@ -454,7 +461,8 @@ I finally got down to creating the form for users to fill in their details and g
 I started researching through forums on how to increase the min value as I didn’t want the user to be able to input a negative value. I managed to find some fundamental information about the number input type on the 'Mdn' documentation website. It showed some code using the ‘min’ and ‘max’ attributes. I even edited the code on the website to test if the attributes still worked. At this point, I found the solution to the issue. I soon tested the ticket and message fields. Making sure it would prevent the form from being sent anytime the criteria wasn’t met. All the rest of the fields seemed to work as intended. I knew at that point that the moment I was taken to the success.html page after submitting the form. The form passed the HTML validation check.
 
 ```
-	```Input fields before
+	Input fields before
+	```
 		<input type="number" id="child" class="form-control square" required>
 		<input type="number" id="adult" class="form-control square" required>
 		<input type="number" id="family" class="form-control square" required>
@@ -462,7 +470,8 @@ I started researching through forums on how to increase the min value as I didn�
 		<input type="number" id="senior" class="form-control square" required>
 		<input type="number" id="concession" class="form-control square" required>
 	```
-	```Input fields after
+	Input fields after
+	```
 		<input type="number" id="child" class="form-control square" min="0" max="100" required>
 		<input type="number" id="adult" class="form-control square" min="0" max="100" required>
 		<input type="number" id="family" class="form-control square" min="0" max="100" required>
@@ -512,25 +521,136 @@ There were problems that arose from testing such as:
         </script>
 ```
 
-*	The input labels ‘Phone’ and ‘Pick available date’ were too close to the input fields for ‘Name’ and ‘Email’. This was a quick and easy fix by applying the ‘mt-4’ class just to give them space.
+*	The input labels ‘Phone’ and ‘Pick available date’ were too close to the input fields for ‘Name’ and ‘Email’. This was a quick and easy fix by applying the ‘mt-4’ class just to give them space. After double-checking different screen sizes, I applied ‘mt-4’ to the other ‘label’ tags as well.
+
+```
+	Label and Input tags before
+	```
+	<div class="col-12 col-lg-6">
+		<label for="name" class="form-label">Name</label>
+		<input type="text" id="name" name="name" class="form-control" required>
+	</div>
+	<div class="col-12 col-lg-6">
+		<label for="email" class="form-label">Email</label>
+		<input type="email" id="email" name="email" class="form-control" required>
+	</div>
+	<div class="col-12 col-lg-6">
+		<label for="phone" class="form-label">Phone</label>
+		<input type="number" id="phone" name="phone" class="form-control" min="123456" max="12345678901" required>
+	</div>
+	<div class="col-12 col-lg-6">
+		<label for="date-and-time" class="form-label">Pick available date</label>
+		<input type="datetime-local" id="date-and-time" name="phone" class="form-control" required>
+	</div>
+	<div class="col-12 mb-3">
+		<label for="message" class="form-label">Message</label>
+		<textarea id="message" name="message" rows="6" class="form-control" required></textarea>
+	</div>
+	```
+
+
+	Label and Input tags after
+	```
+	<div class="col-12 col-lg-6">
+		<label for="name" class="form-label mt-4">Name</label>
+		<input type="text" id="name" name="name" class="form-control" required>
+	</div>
+	<div class="col-12 col-lg-6">
+		<label for="email" class="form-label mt-4">Email</label>
+		<input type="email" id="email" name="email" class="form-control" required>
+	</div>
+	<div class="col-12 col-lg-6">
+		<label for="phone" class="form-label mt-4">Phone</label>
+		<input type="number" id="phone" name="phone" class="form-control" min="123456" max="12345678901" required>
+	</div>
+	<div class="col-12 col-lg-6">
+		<label for="date-and-time" class="form-label mt-4">Pick available date</label>
+		<input type="datetime-local" id="date-and-time" name="phone" class="form-control" required>
+	</div>
+	```
+
+```
+
+
 *	For the ticket prices page, on a larger screen size where it is split into two columns. The image is accompanied by the extra info for the discounts which looks off. First off, I decided to move the extra-info in the same div as the table. I even removed the border and added a #B0E4CC background colour and a #162E2C font colour with bolder font-weight to make it stand out more. I edited the table to have the same colour scheme to make it easier to read and blend in with the rest of the webpage.
-*	The ‘price’ title for the ticket prices table is of the same font size and colour as the rest of the prices table. This doesn’t stand out too well. So I removed it from the table element and placed it above in the code. I used the same font (‘Oi’, serif from Google Fonts) as the title of the webpage. The title completely stood out from the table which was more pleasant to the eyes. 
 
-<p align="center">
-	<img width="1853" height="1054" alt="manual test corrections" src="https://github.com/user-attachments/assets/9f0c8e0b-58f3-457b-b437-64dccdbdcfe5" />
-</p>
+	```
+		Colour theme added for the table
+		```
+		#ticket-prices .table{
+		    background-color: var(--primary-color);
+		}
+		#ticket-prices .table-light *{
+		    background-color: transparent;
+		    color:white;
+		}
+	 	```
+ 	```
+*	The ‘price’ title for the ticket prices table is of the same font size and colour as the rest of the prices table. This doesn’t stand out too well. So I removed it from the table element and placed it above in the code. I used the same font (‘Oi’, serif from Google Fonts) as the title of the webpage. The title completely stood out from the table which was more pleasant to the eyes.
 
-I wasn’t done just yet. I needed to check for other flaws that I may have missed out on. I started off with generating a lighthouse report on the index.html page. The performance score was below 80 so I had to take a look. The issues were mainly down to built-in toolkits from google fonts and bootstrap. The best practice score was 100 so I didn’t bother with that. The accessibility score was 95 at the time and the performance score ranged from 72. I immediately took a look at the issues that the report mentioned which impacted the scores. It mentioned that the contrast between the subheadings and the background were weak. The contrast worked fine for bigger fonts, but was weaker for smaller fonts. For performance, that was due to a couple of things, mainly unused CSS from bootstrap.
+```
+	Prices table
+	```
+<div class="row">
+	<div class=" num-2 table-edit col-12 col-md-12 col-lg-6">
+		<h3 class="text-center">Prices</h3>
+		<table class="table my-2 text-center table-light">
+			<thead>
+				<tr>
+					<th scope="col"></th>
+					<th scope="col">Pre-Booking</th>
+					<th scope="col">General</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Child (0-17) & Students*</th>
+					<td>£5.50</td>
+					<td>£7.50</td>
+				</tr>
+				<tr>
+					<th scope="row">Adult (18-59)</th>
+					<td>£10.00</td>
+					<td>£12.00</td>
+				</tr>
+				<tr>
+					<th scope="row">Family</th>
+					<td>£18.00</td>
+					<td>£20.00</td>
+				</tr>
+				<tr>
+					<th scope="row">Senior (60+)</th>
+					<td colspan="2">£8.00</td>
+					
+				</tr>
+				<tr>
+					<th scope="row">Concession*</th>
+					<td>£6.50</td>
+					<td>£7.50</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="extra-table-info mt-4 text-center"><strong>*Students to bring Student ID & Carers with a special needs person will need proof of disability.</strong></div>
+	</div> 
+	<!--Extra info for certain prices-->
+	<div class="num-1 col-12 col-md-12 col-lg-12  col-xl-6 text-center text-md-center text-lg-center text-xl-start">
+		<div class = "text-center mt-4"><img src="assets/images/table-tickets-icon (2).png" alt="Tickets icon display"></i></div>  
+	</div>
+	<!--Buttons takes user to the form.-->
+	<div class="num-3 col-12 col-md-12 col-lg-12  col-xl-12 text-center text-md-center text-lg-center  text-xl-end mt-4">
+		<a class="custom-button-outlined btn" href="booking-enquiry.html">Book Now</a> 
+	</div>
+</div>		
+```
+![Manual test corrections](https://github.com/user-attachments/assets/9f0c8e0b-58f3-457b-b437-64dccdbdcfe5)
 
-<p align="center">
-	<img width="1590" height="1010" alt="new index html lighthouse report" src="https://github.com/user-attachments/assets/62138154-6133-4313-9a44-475f8ed81c52" />
-</p>
+When I started off with generating a lighthouse report on the index.html page. I wanted to check the rough scores on ‘performance’, ‘accessibility’ and ‘best practice’. The performance score was below 80 so I had to take a look. The accessibility score was 95 at the time and the performance score ranged from 72. The issues were mainly down to built-in toolkits from google fonts and bootstrap.I immediately took a look at the issues that the report mentioned which impacted the scores. It mentioned that the contrast between the subheadings and the background were weak. The contrast worked fine for bigger fonts, but was weaker for smaller fonts. For performance, that was due to a couple of things, mainly unused CSS from bootstrap. The best practice score was 100 so I didn’t bother with that. 
 
-I started off with comparing the rough colour ratio I had initially used for my sub headings. The ratio was 4.12:1. So I selected a colour hex code #1B6267 which had a better contrast over all and still fit the colour scheme. With help of Google AI mode and the Stack overflow forums, I set the height and width properties to 100% with the object-fit property to the cover setting. It is to prevent the images from being warped. I even used a media query to set the margin to center the images for smaller screen sizes.
+![New Index Lighthouse Report](https://github.com/user-attachments/assets/62138154-6133-4313-9a44-475f8ed81c52)
 
-<p align="center">
-	<img width="1284" height="1023" alt="first attempt at corrections" src="https://github.com/user-attachments/assets/367be3fd-b97e-40ea-8328-de58b0ddde80" />
-</p>
+I started off with comparing the rough colour ratio I had initially used for my sub headings. The ratio was 4.12:1. So I selected a colour hex code #1B6267 to compare with the white background which had a better contrast (7.02:1) overall and still fit the colour scheme. With help of Google AI mode and the Stack overflow forums, I set the height and width properties to 100% with the object-fit property to the cover setting. It is to prevent the images from being warped. I even used a media query to set the margin to centre the images for smaller screen sizes. By doing this, I hoped to improve the performance by the next lighthouse report.
+
+![First corrections attempt](https://github.com/user-attachments/assets/367be3fd-b97e-40ea-8328-de58b0ddde80)
 
 While I managed to fix the accessibility and carousel issues, there was a problem with the card images. Their original ratio (500x250) didn’t align with the displayed ratio. So the first thing I did was change the displayed ratio back to 500x250 in pixels. Committed the repository and double checked again. The displayed ratio was closer to 450x250 than the original ratio 500x250. I took a look and that didn’t get rid of the diagnosis. I decided to set the height and width properties to 100% rather than a specific measurement and that managed to fix the issue.
 
