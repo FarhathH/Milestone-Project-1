@@ -4,6 +4,8 @@
 
 This README contains the overall development of the 'Funanza' website.
 
+![The preview of the Funanza website](https://github.com/user-attachments/assets/14314abf-bd32-4fb7-a6ea-81e2099f2893)
+
 [Link to the deployed website](https://farhathh.github.io/Milestone-Project-1/)
 <hr>
 
